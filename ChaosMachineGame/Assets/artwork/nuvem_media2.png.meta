@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 1fe4b8e09892eb049b6b7a209b0b9f86
+guid: 6da9b382a386ac94694ba61b35c3f913
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6705654153084933056
-    second: fundo_estatico_0
+      213: -7261703301998568951
+    second: nuvem_media2_0
+  - first:
+      213: 5526630454308120729
+    second: nuvem_media2_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fundo_estatico_0
+      name: nuvem_media2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 500
-        height: 500
+        x: 9
+        y: 132
+        width: 454
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c310459ce44f0d50800000000000000
-      internalID: 6705654153084933056
+      spriteID: 90a181c225f393b90800000000000000
+      internalID: -7261703301998568951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_media2_1
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 136
+        width: 421
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99824e9ed1982bc40800000000000000
+      internalID: 5526630454308120729
       vertices: []
       indices: 
       edges: []
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fundo_estatico_0: 6705654153084933056
+      nuvem_media2_0: -7261703301998568951
+      nuvem_media2_1: 5526630454308120729
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

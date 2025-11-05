@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 598a7d1a17129694eb5838e375ff1695
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3775180706611760665
+    second: nuvem_lenta2_0
+  - first:
+      213: -8989444948406846456
+    second: nuvem_lenta2_1
+  - first:
+      213: -6207571824021682897
+    second: nuvem_lenta2_2
+  - first:
+      213: 5384735227768834843
+    second: nuvem_lenta2_3
+  - first:
+      213: 5823888974955558345
+    second: nuvem_lenta2_4
+  - first:
+      213: 3334264706834624834
+    second: nuvem_lenta2_5
+  - first:
+      213: -4227160122393229234
+    second: nuvem_lenta2_6
+  - first:
+      213: -323313640001425493
+    second: nuvem_lenta2_7
+  - first:
+      213: 5251215594476184960
+    second: nuvem_lenta2_8
+  - first:
+      213: -4744215846708403713
+    second: nuvem_lenta2_9
+  - first:
+      213: -5524714334846603727
+    second: nuvem_lenta2_10
+  - first:
+      213: 8416716481443385837
+    second: nuvem_lenta2_11
+  - first:
+      213: -8870425259605914353
+    second: nuvem_lenta2_12
+  - first:
+      213: -3207339941638075252
+    second: nuvem_lenta2_13
+  - first:
+      213: -5796104098538607385
+    second: nuvem_lenta2_14
+  - first:
+      213: 2757406862272280450
+    second: nuvem_lenta2_15
+  - first:
+      213: -2448229978039574758
+    second: nuvem_lenta2_16
+  - first:
+      213: -7472028524414874535
+    second: nuvem_lenta2_17
+  - first:
+      213: -8698036518030402178
+    second: nuvem_lenta2_18
+  - first:
+      213: -6105625018241375359
+    second: nuvem_lenta2_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nuvem_lenta2_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 444
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e8084d9d2246430800000000000000
+      internalID: 3775180706611760665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 413
+        width: 140
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cb74292731f3380800000000000000
+      internalID: -8989444948406846456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 446
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25c67fa0564ad9a0800000000000000
+      internalID: -6207571824021682897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_3
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 415
+        width: 140
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b81bcf82c6aba40800000000000000
+      internalID: 5384735227768834843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 378
+        width: 99
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c53a8b9a2c92d050800000000000000
+      internalID: 5823888974955558345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_5
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 380
+        width: 99
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241fffdc510b54e20800000000000000
+      internalID: 3334264706834624834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_6
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 326
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e480e00e34c1655c0800000000000000
+      internalID: -4227160122393229234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_7
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 298
+        width: 104
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf2da815fb538bf0800000000000000
+      internalID: -323313640001425493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 328
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085aeb3d2c010e840800000000000000
+      internalID: 5251215594476184960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_9
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 300
+        width: 104
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1aa27c2d8292eb0800000000000000
+      internalID: -4744215846708403713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 233
+        width: 194
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ea5f965954453b0800000000000000
+      internalID: -5524714334846603727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_11
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 289
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1db93db0f2ec470800000000000000
+      internalID: 8416716481443385837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_12
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 278
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d8982593be5e480800000000000000
+      internalID: -8870425259605914353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_13
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 259
+        width: 145
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c8db8f05d3d73d0800000000000000
+      internalID: -3207339941638075252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_14
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 235
+        width: 194
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecab6d080a109fa0800000000000000
+      internalID: -5796104098538607385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_15
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 291
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287b6fe8ee6444620800000000000000
+      internalID: 2757406862272280450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_16
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 280
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f1d766ec3260ed0800000000000000
+      internalID: -2448229978039574758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_17
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 261
+        width: 145
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c4aa245a50e4890800000000000000
+      internalID: -7472028524414874535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_18
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 268
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d1c6bfedd5a4780800000000000000
+      internalID: -8698036518030402178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem_lenta2_19
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 270
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1832cf71566744ba0800000000000000
+      internalID: -6105625018241375359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nuvem_lenta2_0: 3775180706611760665
+      nuvem_lenta2_1: -8989444948406846456
+      nuvem_lenta2_10: -5524714334846603727
+      nuvem_lenta2_11: 8416716481443385837
+      nuvem_lenta2_12: -8870425259605914353
+      nuvem_lenta2_13: -3207339941638075252
+      nuvem_lenta2_14: -5796104098538607385
+      nuvem_lenta2_15: 2757406862272280450
+      nuvem_lenta2_16: -2448229978039574758
+      nuvem_lenta2_17: -7472028524414874535
+      nuvem_lenta2_18: -8698036518030402178
+      nuvem_lenta2_19: -6105625018241375359
+      nuvem_lenta2_2: -6207571824021682897
+      nuvem_lenta2_3: 5384735227768834843
+      nuvem_lenta2_4: 5823888974955558345
+      nuvem_lenta2_5: 3334264706834624834
+      nuvem_lenta2_6: -4227160122393229234
+      nuvem_lenta2_7: -323313640001425493
+      nuvem_lenta2_8: 5251215594476184960
+      nuvem_lenta2_9: -4744215846708403713
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

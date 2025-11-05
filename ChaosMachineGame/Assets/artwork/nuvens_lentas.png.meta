@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 8cad9a61f7a2e1b45a965fbc093a77a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4427659611428041031
+    second: nuvens_lentas_0
+  - first:
+      213: 9083377028302979403
+    second: nuvens_lentas_1
+  - first:
+      213: -90135003586675120
+    second: nuvens_lentas_2
+  - first:
+      213: -766290116878977216
+    second: nuvens_lentas_3
+  - first:
+      213: 928126843550017509
+    second: nuvens_lentas_4
+  - first:
+      213: 4229177640011010300
+    second: nuvens_lentas_5
+  - first:
+      213: -1223861539070630606
+    second: nuvens_lentas_6
+  - first:
+      213: -7276137078220735801
+    second: nuvens_lentas_7
+  - first:
+      213: 1657110636674627442
+    second: nuvens_lentas_8
+  - first:
+      213: -4818368761674248722
+    second: nuvens_lentas_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nuvens_lentas_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 413
+        width: 162
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4141fc0843ae0e70800000000000000
+      internalID: 9083377028302979403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_lentas_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 379
+        width: 99
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e336911b6cfbef0800000000000000
+      internalID: -90135003586675120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_lentas_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 326
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047398cd2379d55f0800000000000000
+      internalID: -766290116878977216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_lentas_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 298
+        width: 110
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7ad40627e51ec00800000000000000
+      internalID: 928126843550017509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_lentas_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 233
+        width: 197
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf091ec08ae01ba30800000000000000
+      internalID: 4229177640011010300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_lentas_8
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 258
+        width: 145
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2773384285d3ff610800000000000000
+      internalID: 1657110636674627442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6137c025894531540ac28982b3c3c62c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nuvens_lentas_0: -4427659611428041031
+      nuvens_lentas_1: 9083377028302979403
+      nuvens_lentas_2: -90135003586675120
+      nuvens_lentas_3: -766290116878977216
+      nuvens_lentas_4: 928126843550017509
+      nuvens_lentas_5: 4229177640011010300
+      nuvens_lentas_6: -1223861539070630606
+      nuvens_lentas_7: -7276137078220735801
+      nuvens_lentas_8: 1657110636674627442
+      nuvens_lentas_9: -4818368761674248722
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

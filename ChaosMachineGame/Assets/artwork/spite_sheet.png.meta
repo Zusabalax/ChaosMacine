@@ -1,37 +1,25 @@
 fileFormatVersion: 2
-guid: 8cad9a61f7a2e1b45a965fbc093a77a9
+guid: 8124b429cfa2e1d409466f8e8a8f734e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4427659611428041031
-    second: nuvens_lentas_0
+      213: -77217886207435213
+    second: spite_sheet_0
   - first:
-      213: 9083377028302979403
-    second: nuvens_lentas_1
+      213: -7983190951639055482
+    second: spite_sheet_1
   - first:
-      213: -90135003586675120
-    second: nuvens_lentas_2
+      213: 9220826260463029482
+    second: spite_sheet_2
   - first:
-      213: -766290116878977216
-    second: nuvens_lentas_3
+      213: -8944716708921688477
+    second: spite_sheet_3
   - first:
-      213: 928126843550017509
-    second: nuvens_lentas_4
+      213: 1662117723936113443
+    second: spite_sheet_4
   - first:
-      213: 4229177640011010300
-    second: nuvens_lentas_5
-  - first:
-      213: -1223861539070630606
-    second: nuvens_lentas_6
-  - first:
-      213: -7276137078220735801
-    second: nuvens_lentas_7
-  - first:
-      213: 1657110636674627442
-    second: nuvens_lentas_8
-  - first:
-      213: -4818368761674248722
-    second: nuvens_lentas_9
+      213: 3857703899510162692
+    second: spite_sheet_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -127,133 +115,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nuvens_lentas_1
+      name: spite_sheet_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 413
-        width: 162
-        height: 53
+        x: 106
+        y: 280
+        width: 68
+        height: 102
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4141fc0843ae0e70800000000000000
-      internalID: 9083377028302979403
+      spriteID: 33e9c4addbaadeef0800000000000000
+      internalID: -77217886207435213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nuvens_lentas_2
+      name: spite_sheet_1
       rect:
         serializedVersion: 2
-        x: 211
-        y: 379
-        width: 99
-        height: 48
+        x: 589
+        y: 280
+        width: 89
+        height: 90
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05e336911b6cfbef0800000000000000
-      internalID: -90135003586675120
+      spriteID: 68301715022063190800000000000000
+      internalID: -7983190951639055482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nuvens_lentas_3
+      name: spite_sheet_2
       rect:
         serializedVersion: 2
-        x: 118
-        y: 326
-        width: 75
-        height: 44
+        x: 1095
+        y: 280
+        width: 90
+        height: 66
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 047398cd2379d55f0800000000000000
-      internalID: -766290116878977216
+      spriteID: aec0e7e31a4f6ff70800000000000000
+      internalID: 9220826260463029482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nuvens_lentas_4
+      name: spite_sheet_3
       rect:
         serializedVersion: 2
-        x: 353
-        y: 298
-        width: 110
+        x: 1617
+        y: 280
+        width: 51
         height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e7ad40627e51ec00800000000000000
-      internalID: 928126843550017509
+      spriteID: 36eb83c5b8bfdd380800000000000000
+      internalID: -8944716708921688477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nuvens_lentas_5
+      name: spite_sheet_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 233
-        width: 197
-        height: 75
+        x: 2095
+        y: 280
+        width: 90
+        height: 66
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf091ec08ae01ba30800000000000000
-      internalID: 4229177640011010300
+      spriteID: 323c71e7347011710800000000000000
+      internalID: 1662117723936113443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nuvens_lentas_8
+      name: spite_sheet_5
       rect:
         serializedVersion: 2
-        x: 220
-        y: 258
-        width: 145
-        height: 61
+        x: 2589
+        y: 280
+        width: 89
+        height: 90
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2773384285d3ff610800000000000000
-      internalID: 1657110636674627442
+      spriteID: 40541f2f141598530800000000000000
+      internalID: 3857703899510162692
       vertices: []
       indices: 
       edges: []
@@ -262,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6137c025894531540ac28982b3c3c62c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -272,16 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nuvens_lentas_0: -4427659611428041031
-      nuvens_lentas_1: 9083377028302979403
-      nuvens_lentas_2: -90135003586675120
-      nuvens_lentas_3: -766290116878977216
-      nuvens_lentas_4: 928126843550017509
-      nuvens_lentas_5: 4229177640011010300
-      nuvens_lentas_6: -1223861539070630606
-      nuvens_lentas_7: -7276137078220735801
-      nuvens_lentas_8: 1657110636674627442
-      nuvens_lentas_9: -4818368761674248722
+      spite_sheet_0: -77217886207435213
+      spite_sheet_1: -7983190951639055482
+      spite_sheet_2: 9220826260463029482
+      spite_sheet_3: -8944716708921688477
+      spite_sheet_4: 1662117723936113443
+      spite_sheet_5: 3857703899510162692
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

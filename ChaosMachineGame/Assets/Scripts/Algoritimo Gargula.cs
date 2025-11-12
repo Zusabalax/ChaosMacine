@@ -7,10 +7,11 @@ public class AlgoritimoGargula : MonoBehaviour
 {
     [SerializeField]
     private Rigidbody2D Gargula;
-    private bool Cd;
-
+    private bool cd;
+        
+            
     [SerializeField]
-    private float Forca, CDtime;
+    private float Forca, cdtime;
 
     
             
@@ -18,7 +19,7 @@ public class AlgoritimoGargula : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Cd = true;
+        cd = true;
 
     }
 
@@ -26,27 +27,28 @@ public class AlgoritimoGargula : MonoBehaviour
     void Update()
     {
         
-        if (Cd)
+        if (cd)
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Gargula.AddForce(Vector2.up * Forca, ForceMode2D.Impulse);
-                StartCoroutine(CD());
+                StartCoroutine(cd2());
             }
 
+
     }
-    IEnumerator CD()
+    IEnumerator cd2()
     {
-        Cd = false;
-        yield return new WaitForSeconds(CDtime);
-        Cd = true;
+        cd = false;
+        yield return new WaitForSeconds(cdtime);
+        cd = true;
     }
 
     public void GargulaFly()
     {
-        if (Cd && Gargula.gameObject.activeSelf)
+        if (cd && Gargula.gameObject.activeSelf)
         {
                Gargula.AddForce(Vector2.up * Forca, ForceMode2D.Impulse);
-                StartCoroutine(CD());
+                StartCoroutine(cd2());
             Debug.Log("GargulaButao");
         }
     }

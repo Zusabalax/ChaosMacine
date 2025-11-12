@@ -6,8 +6,9 @@ using UnityEngine.InputSystem;
 
 
 public class PlayerControl : MonoBehaviour
-
 {
+
+    public static PlayerControl Instance;
     public static bool fly;
     public static bool Jump;
     [SerializeField]
@@ -16,6 +17,18 @@ public class PlayerControl : MonoBehaviour
     private float Forca,FlyForce, Jumptime;
     [SerializeField]
     private float speed;
+
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
    
 
 
@@ -31,9 +44,11 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
+      
         if (!fly)
         {
-                     
+
 
             if (Jump)
             {
@@ -52,14 +67,42 @@ public class PlayerControl : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Player.AddForce(Vector2.up * FlyForce, ForceMode2D.Impulse);
-                StartCoroutine(Cdfly()); 
-                
-                
+                StartCoroutine(Cdfly());
+
+
             }
 
 
         }
-        Player.AddForce(Vector2.right * speed, ForceMode2D.Force);
+
+
+    }
+
+    public void JumpButton()
+    {
+        if (!fly)
+        {
+
+
+            if (Jump)
+            {
+
+                    Player.AddForce(Vector2.up * Forca, ForceMode2D.Impulse);
+                    Jump = false;
+            }
+
+        }
+        else
+        {
+          
+                Player.AddForce(Vector2.up * FlyForce, ForceMode2D.Impulse);
+                StartCoroutine(Cdfly());
+
+
+          
+
+
+        }
     }
     IEnumerator Cdfly()
     {

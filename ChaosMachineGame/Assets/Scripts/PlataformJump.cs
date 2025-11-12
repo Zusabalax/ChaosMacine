@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 
 public class PlataformJump : MonoBehaviour
@@ -8,6 +9,11 @@ public class PlataformJump : MonoBehaviour
         if (collision.gameObject.tag == "Player")
            PlayerControl.Jump = true;
     }
-    
+
+    private void Update()
+    {
+        this.transform.DOMove(Vector2.left,Time.deltaTime);
+    }
+
 
 }

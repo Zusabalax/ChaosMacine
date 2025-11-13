@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 983b384104b46d3408530c38991f1e4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8492844656659745445
+    second: gatu_dashh_sheet_0
+  - first:
+      213: -6715113086732245681
+    second: gatu_dashh_sheet_1
+  - first:
+      213: -5196817370890450320
+    second: gatu_dashh_sheet_2
+  - first:
+      213: -9086676302377723238
+    second: gatu_dashh_sheet_3
+  - first:
+      213: -7900479737029244052
+    second: gatu_dashh_sheet_4
+  - first:
+      213: 229951009005793863
+    second: gatu_dashh_sheet_5
+  - first:
+      213: -2553032743938299430
+    second: gatu_dashh_sheet_6
+  - first:
+      213: 8455906082076614927
+    second: gatu_dashh_sheet_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gatu_dashh_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 13
+        width: 43
+        height: 32
+      alignment: 9
+      pivot: {x: 0.85037017, y: 0.54413843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55b83328ca532a80800000000000000
+      internalID: -8492844656659745445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatu_dashh_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 13
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.8678201, y: 0.54413843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f456fbec9302fc2a0800000000000000
+      internalID: -6715113086732245681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatu_dashh_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 13
+        width: 50
+        height: 27
+      alignment: 9
+      pivot: {x: 0.8860638, y: 0.6482179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ace75922231e7b0800000000000000
+      internalID: -5196817370890450320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatu_dashh_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 3
+        width: 47
+        height: 37
+      alignment: 9
+      pivot: {x: 0.8506028, y: 0.7417673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ad0d7db04a5e180800000000000000
+      internalID: -9086676302377723238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatu_dashh_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 46
+        height: 40
+      alignment: 9
+      pivot: {x: 0.86845994, y: 0.7589454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b4337a98bdb5290800000000000000
+      internalID: -7900479737029244052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatu_dashh_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 3
+        width: 47
+        height: 37
+      alignment: 9
+      pivot: {x: 0.8806542, y: 0.7417673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742788f6933f03300800000000000000
+      internalID: 229951009005793863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatu_dashh_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 13
+        width: 50
+        height: 27
+      alignment: 9
+      pivot: {x: 0.8860638, y: 0.63949925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9ed95fe3ec19cd0800000000000000
+      internalID: -2553032743938299430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatu_dashh_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 13
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.8776283, y: 0.54413843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01ed34c7c9695570800000000000000
+      internalID: 8455906082076614927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2f6820745bf76c94d963454f7120222e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gatu_dashh_sheet_0: -8492844656659745445
+      gatu_dashh_sheet_1: -6715113086732245681
+      gatu_dashh_sheet_2: -5196817370890450320
+      gatu_dashh_sheet_3: -9086676302377723238
+      gatu_dashh_sheet_4: -7900479737029244052
+      gatu_dashh_sheet_5: 229951009005793863
+      gatu_dashh_sheet_6: -2553032743938299430
+      gatu_dashh_sheet_7: 8455906082076614927
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -42,7 +42,7 @@ public class PlayerControl : MonoBehaviour
         Jump = false;
         fly = false;
     }
-
+    /*
     void Update()
     {
         if (!fly)
@@ -84,13 +84,13 @@ public class PlayerControl : MonoBehaviour
             ExecuteFlyJump();
         }
     }
-
+    */
     public void DashButton()
     {
         ExecuteDash();
     }
 
-    private void ExecuteJump()
+    public void ExecuteJump()
     {
         Player.AddForce(Vector2.up * Forca, ForceMode2D.Impulse);
         Jump = false;
@@ -98,7 +98,7 @@ public class PlayerControl : MonoBehaviour
         OnJump?.Invoke(); // Dispara o evento de pulo
     }
 
-    private void ExecuteFlyJump()
+    public void ExecuteFlyJump()
     {
         Player.AddForce(Vector2.up * FlyForce, ForceMode2D.Impulse);
         StartCoroutine(Cdfly());

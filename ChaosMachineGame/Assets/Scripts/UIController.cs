@@ -8,6 +8,7 @@ public class UIController : MonoBehaviour
     public GameObject runHUD;
     public GameObject flyHUD;
     public GameObject pauseHUD;
+    public GameObject gameOverHUD;
 
     void Start()
     {
@@ -19,6 +20,7 @@ public class UIController : MonoBehaviour
         stateMachine.OnEnterRunState += HandleRunState;
         stateMachine.OnEnterFlyState += HandleFlyState;
         stateMachine.OnEnterPauseState += HandlePauseState;
+        stateMachine.OnEnterGameOverState += HandleGameOverState;
 
         UpdateHUD(stateMachine.CurrentState);
     }
@@ -37,12 +39,17 @@ public class UIController : MonoBehaviour
     {
         UpdateHUD(StateMachine.State.Pause);
     }
+    private void HandleGameOverState()
+    {
+        UpdateHUD(StateMachine.State.GameOver);
+    }
 
     private void UpdateHUD(StateMachine.State currentState)
     {
         if (runHUD != null) runHUD.SetActive(false);
         if (flyHUD != null) flyHUD.SetActive(false);
         if (pauseHUD != null) pauseHUD.SetActive(false);
+        if (gameOverHUD != null) gameOverHUD.SetActive(false);
 
         switch (currentState)
         {
@@ -55,6 +62,9 @@ public class UIController : MonoBehaviour
             case StateMachine.State.Pause:
                 if (pauseHUD != null) pauseHUD.SetActive(true);
                 break;
+            case StateMachine.State.GameOver:
+                if (gameOverHUD != null) gameOverHUD.SetActive(true);
+                break;
         }
         Debug.Log($"UIController: HUD para estado {currentState} ativado.");
     }
@@ -66,6 +76,7 @@ public class UIController : MonoBehaviour
             stateMachine.OnEnterRunState -= HandleRunState;
             stateMachine.OnEnterFlyState -= HandleFlyState;
             stateMachine.OnEnterPauseState -= HandlePauseState;
+            stateMachine.OnEnterGameOverState -= HandleGameOverState;
         }
     }
 }

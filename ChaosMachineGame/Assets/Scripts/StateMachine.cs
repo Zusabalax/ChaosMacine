@@ -8,7 +8,8 @@ public class StateMachine : MonoBehaviour
     {
         Run,
         Fly,
-        Pause
+        Pause,
+        GameOver
     }
 
     public State CurrentState { get; private set; }
@@ -16,10 +17,12 @@ public class StateMachine : MonoBehaviour
     public event System.Action OnEnterRunState;
     public event System.Action OnEnterFlyState;
     public event System.Action OnEnterPauseState;
+    public event System.Action OnEnterGameOverState;
 
     public UnityEvent OnRunStateEnteredUnityEvent;
     public UnityEvent OnFlyStateEnteredUnityEvent;
     public UnityEvent OnPauseStateEnteredUnityEvent;
+    public UnityEvent OnGameOverStateEnteredUnityEvent;
 
     private void Start()
     {
@@ -51,6 +54,10 @@ public class StateMachine : MonoBehaviour
                 OnEnterPauseState?.Invoke();
                 OnPauseStateEnteredUnityEvent?.Invoke();
                 break;
+            case State.GameOver:
+                OnEnterGameOverState?.Invoke();
+                OnGameOverStateEnteredUnityEvent?.Invoke();
+                break;
         }
     }
     [ContextMenu("Run State")]
@@ -67,5 +74,10 @@ public class StateMachine : MonoBehaviour
     public void TransitionToPause()
     {
         SetState(State.Pause);
+    }
+    [ContextMenu("Game Over State")]
+    public void TransitionToGameOver()
+    {
+        SetState(State.GameOver);
     }
 }

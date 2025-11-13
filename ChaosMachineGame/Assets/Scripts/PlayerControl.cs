@@ -7,14 +7,15 @@ public class PlayerControl : MonoBehaviour
 {
     public static PlayerControl Instance;
     public static bool fly;
-    private  bool Jump;
+    private  bool _jump,_cdDash, _stopDash;
 
-  
+    [SerializeField]
+    private Transform _originalPosition;
 
     [SerializeField]
     private Rigidbody2D Player;
     [SerializeField]
-    private float Forca, FlyForce, Jumptime;
+    private float Forca, FlyForce,_dashForce, Jumptime;
     [SerializeField]
     private float speed;
 
@@ -39,15 +40,17 @@ public class PlayerControl : MonoBehaviour
 
     void Start()
     {
-        Jump = false;
+        _jump = false;
         fly = false;
+        _cdDash= true;  
+        _stopDash= false;
     }
-    /*
+
     void Update()
     {
         if (!fly)
         {
-            if (Jump)
+            if (_jump)
             {
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
@@ -64,7 +67,7 @@ public class PlayerControl : MonoBehaviour
         }
 
         // Input para dash (exemplo com Left Shift)
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             ExecuteDash();
         }
@@ -74,7 +77,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (!fly)
         {
-            if (Jump)
+            if (_jump)
             {
                 ExecuteJump();
             }
@@ -84,21 +87,38 @@ public class PlayerControl : MonoBehaviour
             ExecuteFlyJump();
         }
     }
-    */
+    public void JumpDash()
+    {
+        if (!fly)
+        {
+            if (_jump)
+            {
+                ExecuteDash();
+            }
+        }
+        else
+        {
+            ExecuteDash();
+        }
+    }
+
     public void DashButton()
     {
         ExecuteDash();
     }
 
-    public void ExecuteJump()
+    private void ExecuteJump()
     {
-        Player.AddForce(Vector2.up * Forca, ForceMode2D.Impulse);
-        Jump = false;
         _animator.SetBool("Jump", true);
+        _stopDash = false;
+        Player.transform.SetParent(_originalPosition);
+        Player.AddForce(new Vector2(0.2f,1) * Forca, ForceMode2D.Impulse);
+        _jump = false;
+    
         OnJump?.Invoke(); // Dispara o evento de pulo
     }
 
-    public void ExecuteFlyJump()
+    private void ExecuteFlyJump()
     {
         Player.AddForce(Vector2.up * FlyForce, ForceMode2D.Impulse);
         StartCoroutine(Cdfly());
@@ -109,17 +129,60 @@ public class PlayerControl : MonoBehaviour
     {
         // Implementação básica do dash - ajuste conforme necessário
         // Exemplo: dash rápido para a direita
-        Player.AddForce(Vector2.right * Forca * 1.5f, ForceMode2D.Impulse);
+        if(_cdDash)
+        {
+            if(!_stopDash)
+            {
+                StartCoroutine(CdDash());
+                if (_jump)
+                {
+                    _animator.SetBool("Jump", false);
+                    _animator.SetBool("Dash", true);
+                }
+                else
+                {
+                    _animator.SetBool("Jump", true);
+                    _animator.SetBool("Dash", true);
 
-        OnDash?.Invoke(); // Dispara o evento de dash
+                }
+                   
+
+                Player.AddForce(Vector2.right * _dashForce, ForceMode2D.Impulse);
+            }
+               
+            else
+            {
+                _animator.SetBool("Jump", false);
+                _animator.SetBool("Dash", false);
+                Player.linearVelocity = Vector2.zero;
+                Player.angularVelocity = 0f;
+            }
+            _stopDash = !_stopDash;
+
+            StartCoroutine(CdDash());
+
+            OnDash?.Invoke(); // Dispara o evento de dash
+
+        }
+           
     }
 
 
     IEnumerator Cdfly()
     {
-        Jump = false;
+        _jump = false;
         yield return new WaitForSeconds(Jumptime);
-        Jump = true;
+        _jump = true;
+     
+
+    }
+
+    IEnumerator CdDash()
+    {
+        _cdDash = false;
+        yield return new WaitForEndOfFrame();
+        _cdDash = true;
+        _animator.SetBool("Dash", false);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -127,8 +190,19 @@ public class PlayerControl : MonoBehaviour
         if (collision.gameObject.layer== 3)
         {
             _animator.SetBool("Jump", false);
-            Jump = true;
+            Player.linearVelocity = Vector2.zero;
+            Player.angularVelocity = 0f;
+
+            Player.transform.SetParent(collision.transform);
+          
+            _jump = true;
         }
     }
-    
+    IEnumerator PlataformFix(Transform platform)
+    {
+        Player.transform.SetParent(platform);
+        yield return new WaitForSeconds(0.2f);
+        Player.transform.SetParent(_originalPosition);
+    }
+
 }

@@ -153,6 +153,7 @@ public class PlayerControl : MonoBehaviour
             else
             {
                 _animator.SetBool("Jump", false);
+                _animator.SetBool("Dash", false);
                 Player.linearVelocity = Vector2.zero;
                 Player.angularVelocity = 0f;
             }
@@ -172,6 +173,8 @@ public class PlayerControl : MonoBehaviour
         _jump = false;
         yield return new WaitForSeconds(Jumptime);
         _jump = true;
+     
+
     }
 
     IEnumerator CdDash()
@@ -179,6 +182,7 @@ public class PlayerControl : MonoBehaviour
         _cdDash = false;
         yield return new WaitForEndOfFrame();
         _cdDash = true;
+        _animator.SetBool("Dash", false);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

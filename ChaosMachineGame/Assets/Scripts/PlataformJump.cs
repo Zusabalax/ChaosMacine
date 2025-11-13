@@ -10,10 +10,9 @@ public class PlataformJump : MonoBehaviour
            PlayerControl.Jump = true;
     }
 
+
     private void Update()
     {
-        this.transform.DOMove(Vector2.left,Time.deltaTime);
+       this.transform.Translate(Vector3.left * Time.deltaTime * 2);
     }
-
-
 }

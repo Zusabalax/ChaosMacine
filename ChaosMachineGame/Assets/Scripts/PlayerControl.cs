@@ -18,6 +18,9 @@ public class PlayerControl : MonoBehaviour
     [SerializeField]
     private float speed;
 
+    [SerializeField]
+    private Animator _animator;
+
     // Unity Events
     public UnityEvent OnJump;
     public UnityEvent OnDash;
@@ -91,6 +94,7 @@ public class PlayerControl : MonoBehaviour
     {
         Player.AddForce(Vector2.up * Forca, ForceMode2D.Impulse);
         Jump = false;
+        _animator.SetBool("Jump", true);
         OnJump.Invoke(); // Dispara o evento de pulo
     }
 

@@ -1,8 +1,6 @@
 using UnityEngine;
 using System.Collections;
-using Unity.VisualScripting;
-using DG.Tweening;
-using UnityEngine.InputSystem;
+
 using UnityEngine.Events;
 
 public class PlayerControl : MonoBehaviour
@@ -10,6 +8,8 @@ public class PlayerControl : MonoBehaviour
     public static PlayerControl Instance;
     public static bool fly;
     public static bool Jump;
+
+  
 
     [SerializeField]
     private Rigidbody2D Player;
@@ -114,10 +114,25 @@ public class PlayerControl : MonoBehaviour
         OnDash.Invoke(); // Dispara o evento de dash
     }
 
+    void GroundCheck()
+    {
+        
+    }
+
     IEnumerator Cdfly()
     {
         Jump = false;
         yield return new WaitForSeconds(Jumptime);
         Jump = true;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer== 3)
+        {
+            _animator.SetBool("Jump", false);
+            Jump = true;
+        }
+    }
+    
 }

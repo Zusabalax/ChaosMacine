@@ -64,11 +64,15 @@ public class PlatformController : MonoBehaviour
         if (CurrentSpeed < maxSpeed)
         {
             CurrentSpeed += acceleration * Time.deltaTime;
+          //  Debug.Log(CurrentSpeed);
         }
         else
         {
             CurrentSpeed = maxSpeed;
+          //  Debug.Log(CurrentSpeed);
         }
+
+
     }
 
     private void HandleSpawnTimer()

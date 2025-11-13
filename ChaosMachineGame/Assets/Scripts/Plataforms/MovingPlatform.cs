@@ -5,6 +5,15 @@ public class MovingPlatform : MonoBehaviour
     private float speed;
     private string poolName;
 
+    private float x_endPoint;
+
+
+    private void Start()
+    {
+        x_endPoint=GameObject.FindWithTag("Finish").transform.position.x;
+        Debug.Log(GameObject.FindWithTag("Finish").name+"-------------------------------------------------------------------------------------");
+    }
+
     public void Initialize(float speed, float lifetime, string poolName)
     {
         this.speed = speed;
@@ -17,6 +26,8 @@ public class MovingPlatform : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.left * speed * Time.deltaTime);
+        if (transform.position.x <= x_endPoint)
+            Deactivate();
     }
 
     private void Deactivate()

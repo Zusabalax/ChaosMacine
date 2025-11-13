@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 103335020400506839}
   - component: {fileID: 6946539815137408487}
   - component: {fileID: 8363756777560705631}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plataform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,6 +55,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -76,9 +78,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 8
+  m_SortingOrder: 9
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.18098079, g: 0.29898304, b: 0.7830189, a: 1}
   m_FlipX: 0
@@ -148,6 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5bfde0d1efbf174e9d2b464cfc99727, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
 --- !u!114 &8363756777560705631
 MonoBehaviour:
   m_ObjectHideFlags: 0

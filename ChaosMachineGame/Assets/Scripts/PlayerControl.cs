@@ -95,7 +95,7 @@ public class PlayerControl : MonoBehaviour
         Player.AddForce(Vector2.up * Forca, ForceMode2D.Impulse);
         Jump = false;
         _animator.SetBool("Jump", true);
-        OnJump.Invoke(); // Dispara o evento de pulo
+        OnJump?.Invoke(); // Dispara o evento de pulo
     }
 
     private void ExecuteFlyJump()

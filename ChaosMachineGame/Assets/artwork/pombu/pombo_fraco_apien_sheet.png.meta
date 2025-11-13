@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 1895cad764ece2a459eaa22e8b51e4f7
+guid: 0d6aa77498f03764ea38eff9c4eeb5b0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 174019665786890673
-    second: gatu_andando_sheet_0
+      213: -7488514437728781925
+    second: pombo_fraco_apien_sheet_0
   - first:
-      213: -1164145787268278218
-    second: gatu_andando_sheet_1
+      213: -2786935458085062124
+    second: pombo_fraco_apien_sheet_1
   - first:
-      213: -2551076786124204142
-    second: gatu_andando_sheet_2
+      213: -5452892620121191269
+    second: pombo_fraco_apien_sheet_2
   - first:
-      213: 533464575738517775
-    second: gatu_andando_sheet_3
+      213: -4215668478437129494
+    second: pombo_fraco_apien_sheet_3
   - first:
-      213: -8271885814704687164
-    second: gatu_andando_sheet_4
+      213: 6657335182474468997
+    second: pombo_fraco_apien_sheet_4
   - first:
-      213: 3791987157286020708
-    second: gatu_andando_sheet_5
-  - first:
-      213: 49550145126697855
-    second: gatu_andando_sheet_6
-  - first:
-      213: 6513864150888232875
-    second: gatu_andando_sheet_7
+      213: -4836057176599038196
+    second: pombo_fraco_apien_sheet_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -130,43 +124,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: tvOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gatu_andando_sheet_0
+      name: pombo_fraco_apien_sheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 6
-        width: 39
-        height: 43
+        x: 17
+        y: 18
+        width: 58
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b9e82bc6fd3a6200800000000000000
-      internalID: 174019665786890673
+      spriteID: b99bac37bc3731890800000000000000
+      internalID: -7488514437728781925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_1
+      name: pombo_fraco_apien_sheet_1
       rect:
         serializedVersion: 2
-        x: 54
-        y: 6
-        width: 34
-        height: 43
+        x: 117
+        y: 18
+        width: 58
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6385b1b039f18dfe0800000000000000
-      internalID: -1164145787268278218
+      spriteID: 41a36e877f0d259d0800000000000000
+      internalID: -2786935458085062124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_2
+      name: pombo_fraco_apien_sheet_2
       rect:
         serializedVersion: 2
-        x: 103
-        y: 5
-        width: 36
-        height: 44
+        x: 217
+        y: 18
+        width: 67
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2975250ed21c89cd0800000000000000
-      internalID: -2551076786124204142
+      spriteID: b9cc35b7d0f6354b0800000000000000
+      internalID: -5452892620121191269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_3
+      name: pombo_fraco_apien_sheet_3
       rect:
         serializedVersion: 2
-        x: 154
-        y: 6
-        width: 34
-        height: 43
+        x: 317
+        y: 9
+        width: 58
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f091629843f376700800000000000000
-      internalID: 533464575738517775
+      spriteID: ae281fbbadfee75c0800000000000000
+      internalID: -4215668478437129494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_4
+      name: pombo_fraco_apien_sheet_4
       rect:
         serializedVersion: 2
-        x: 201
-        y: 6
-        width: 39
-        height: 43
+        x: 417
+        y: 18
+        width: 67
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c73fe78dab543d80800000000000000
-      internalID: -8271885814704687164
+      spriteID: 58ed91e831b936c50800000000000000
+      internalID: 6657335182474468997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_5
+      name: pombo_fraco_apien_sheet_5
       rect:
         serializedVersion: 2
-        x: 254
-        y: 6
-        width: 34
-        height: 43
+        x: 517
+        y: 18
+        width: 58
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,52 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46660ee8a38df9430800000000000000
-      internalID: 3791987157286020708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gatu_andando_sheet_6
-      rect:
-        serializedVersion: 2
-        x: 303
-        y: 5
-        width: 36
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7b88de289900b000800000000000000
-      internalID: 49550145126697855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gatu_andando_sheet_7
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 6
-        width: 34
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba738dceee4e56a50800000000000000
-      internalID: 6513864150888232875
+      spriteID: c07f553de9fd2ecb0800000000000000
+      internalID: -4836057176599038196
       vertices: []
       indices: 
       edges: []
@@ -349,14 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      gatu_andando_sheet_0: 174019665786890673
-      gatu_andando_sheet_1: -1164145787268278218
-      gatu_andando_sheet_2: -2551076786124204142
-      gatu_andando_sheet_3: 533464575738517775
-      gatu_andando_sheet_4: -8271885814704687164
-      gatu_andando_sheet_5: 3791987157286020708
-      gatu_andando_sheet_6: 49550145126697855
-      gatu_andando_sheet_7: 6513864150888232875
+      pombo_fraco_apien_sheet_0: -7488514437728781925
+      pombo_fraco_apien_sheet_1: -2786935458085062124
+      pombo_fraco_apien_sheet_2: -5452892620121191269
+      pombo_fraco_apien_sheet_3: -4215668478437129494
+      pombo_fraco_apien_sheet_4: 6657335182474468997
+      pombo_fraco_apien_sheet_5: -4836057176599038196
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 1895cad764ece2a459eaa22e8b51e4f7
+guid: 608109f774b3e934a91cdbbe5b2afba6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 174019665786890673
-    second: gatu_andando_sheet_0
+      213: -9073780614008097114
+    second: gargula_gatu_sheet_0
   - first:
-      213: -1164145787268278218
-    second: gatu_andando_sheet_1
+      213: 5964999970773689113
+    second: gargula_gatu_sheet_1
   - first:
-      213: -2551076786124204142
-    second: gatu_andando_sheet_2
+      213: -7128778922321305273
+    second: gargula_gatu_sheet_2
   - first:
-      213: 533464575738517775
-    second: gatu_andando_sheet_3
+      213: 3390043422738916515
+    second: gargula_gatu_sheet_3
   - first:
-      213: -8271885814704687164
-    second: gatu_andando_sheet_4
+      213: -8514111206892793850
+    second: gargula_gatu_sheet_4
   - first:
-      213: 3791987157286020708
-    second: gatu_andando_sheet_5
-  - first:
-      213: 49550145126697855
-    second: gatu_andando_sheet_6
-  - first:
-      213: 6513864150888232875
-    second: gatu_andando_sheet_7
+      213: 748474054205829257
+    second: gargula_gatu_sheet_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -130,43 +124,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: tvOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gatu_andando_sheet_0
+      name: gargula_gatu_sheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 6
-        width: 39
-        height: 43
+        x: 51
+        y: 26
+        width: 68
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b9e82bc6fd3a6200800000000000000
-      internalID: 174019665786890673
+      spriteID: 6a6b8344b94731280800000000000000
+      internalID: -9073780614008097114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_1
+      name: gargula_gatu_sheet_1
       rect:
         serializedVersion: 2
-        x: 54
-        y: 6
-        width: 34
-        height: 43
+        x: 236
+        y: 26
+        width: 89
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6385b1b039f18dfe0800000000000000
-      internalID: -1164145787268278218
+      spriteID: 9136e279edfe7c250800000000000000
+      internalID: 5964999970773689113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_2
+      name: gargula_gatu_sheet_2
       rect:
         serializedVersion: 2
-        x: 103
-        y: 5
-        width: 36
-        height: 44
+        x: 443
+        y: 26
+        width: 90
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2975250ed21c89cd0800000000000000
-      internalID: -2551076786124204142
+      spriteID: 7412fbc075d711d90800000000000000
+      internalID: -7128778922321305273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_3
+      name: gargula_gatu_sheet_3
       rect:
         serializedVersion: 2
-        x: 154
-        y: 6
-        width: 34
-        height: 43
+        x: 664
+        y: 26
+        width: 55
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f091629843f376700800000000000000
-      internalID: 533464575738517775
+      spriteID: 3a4a081288adb0f20800000000000000
+      internalID: 3390043422738916515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_4
+      name: gargula_gatu_sheet_4
       rect:
         serializedVersion: 2
-        x: 201
-        y: 6
-        width: 39
-        height: 43
+        x: 844
+        y: 26
+        width: 90
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c73fe78dab543d80800000000000000
-      internalID: -8271885814704687164
+      spriteID: 6009bfe87fcc7d980800000000000000
+      internalID: -8514111206892793850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_5
+      name: gargula_gatu_sheet_5
       rect:
         serializedVersion: 2
-        x: 254
-        y: 6
-        width: 34
-        height: 43
+        x: 1034
+        y: 26
+        width: 89
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,52 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46660ee8a38df9430800000000000000
-      internalID: 3791987157286020708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gatu_andando_sheet_6
-      rect:
-        serializedVersion: 2
-        x: 303
-        y: 5
-        width: 36
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7b88de289900b000800000000000000
-      internalID: 49550145126697855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gatu_andando_sheet_7
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 6
-        width: 34
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba738dceee4e56a50800000000000000
-      internalID: 6513864150888232875
+      spriteID: 980f88ccf2d136a00800000000000000
+      internalID: 748474054205829257
       vertices: []
       indices: 
       edges: []
@@ -349,14 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      gatu_andando_sheet_0: 174019665786890673
-      gatu_andando_sheet_1: -1164145787268278218
-      gatu_andando_sheet_2: -2551076786124204142
-      gatu_andando_sheet_3: 533464575738517775
-      gatu_andando_sheet_4: -8271885814704687164
-      gatu_andando_sheet_5: 3791987157286020708
-      gatu_andando_sheet_6: 49550145126697855
-      gatu_andando_sheet_7: 6513864150888232875
+      gargula_gatu_sheet_0: -9073780614008097114
+      gargula_gatu_sheet_1: 5964999970773689113
+      gargula_gatu_sheet_2: -7128778922321305273
+      gargula_gatu_sheet_3: 3390043422738916515
+      gargula_gatu_sheet_4: -8514111206892793850
+      gargula_gatu_sheet_5: 748474054205829257
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

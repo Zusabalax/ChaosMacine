@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 1895cad764ece2a459eaa22e8b51e4f7
+guid: 983b384104b46d3408530c38991f1e4a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 174019665786890673
-    second: gatu_andando_sheet_0
+      213: -8492844656659745445
+    second: gatu_dashh_sheet_0
   - first:
-      213: -1164145787268278218
-    second: gatu_andando_sheet_1
+      213: -6715113086732245681
+    second: gatu_dashh_sheet_1
   - first:
-      213: -2551076786124204142
-    second: gatu_andando_sheet_2
+      213: -5196817370890450320
+    second: gatu_dashh_sheet_2
   - first:
-      213: 533464575738517775
-    second: gatu_andando_sheet_3
+      213: -9086676302377723238
+    second: gatu_dashh_sheet_3
   - first:
-      213: -8271885814704687164
-    second: gatu_andando_sheet_4
+      213: -7900479737029244052
+    second: gatu_dashh_sheet_4
   - first:
-      213: 3791987157286020708
-    second: gatu_andando_sheet_5
+      213: 229951009005793863
+    second: gatu_dashh_sheet_5
   - first:
-      213: 49550145126697855
-    second: gatu_andando_sheet_6
+      213: -2553032743938299430
+    second: gatu_dashh_sheet_6
   - first:
-      213: 6513864150888232875
-    second: gatu_andando_sheet_7
+      213: 8455906082076614927
+    second: gatu_dashh_sheet_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -130,207 +130,181 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: tvOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gatu_andando_sheet_0
+      name: gatu_dashh_sheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 6
-        width: 39
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7
+        y: 13
+        width: 43
+        height: 32
+      alignment: 9
+      pivot: {x: 0.85037017, y: 0.54413843}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b9e82bc6fd3a6200800000000000000
-      internalID: 174019665786890673
+      spriteID: b55b83328ca532a80800000000000000
+      internalID: -8492844656659745445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_1
+      name: gatu_dashh_sheet_1
       rect:
         serializedVersion: 2
-        x: 54
-        y: 6
-        width: 34
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 52
+        y: 13
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.8678201, y: 0.54413843}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6385b1b039f18dfe0800000000000000
-      internalID: -1164145787268278218
+      spriteID: f456fbec9302fc2a0800000000000000
+      internalID: -6715113086732245681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_2
+      name: gatu_dashh_sheet_2
       rect:
         serializedVersion: 2
-        x: 103
-        y: 5
-        width: 36
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 100
+        y: 13
+        width: 50
+        height: 27
+      alignment: 9
+      pivot: {x: 0.8860638, y: 0.6482179}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2975250ed21c89cd0800000000000000
-      internalID: -2551076786124204142
+      spriteID: 07ace75922231e7b0800000000000000
+      internalID: -5196817370890450320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_3
+      name: gatu_dashh_sheet_3
       rect:
         serializedVersion: 2
         x: 154
-        y: 6
-        width: 34
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 3
+        width: 47
+        height: 37
+      alignment: 9
+      pivot: {x: 0.8506028, y: 0.7417673}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f091629843f376700800000000000000
-      internalID: 533464575738517775
+      spriteID: a9ad0d7db04a5e180800000000000000
+      internalID: -9086676302377723238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_4
+      name: gatu_dashh_sheet_4
       rect:
         serializedVersion: 2
-        x: 201
-        y: 6
-        width: 39
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 204
+        y: 0
+        width: 46
+        height: 40
+      alignment: 9
+      pivot: {x: 0.86845994, y: 0.7589454}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c73fe78dab543d80800000000000000
-      internalID: -8271885814704687164
+      spriteID: c6b4337a98bdb5290800000000000000
+      internalID: -7900479737029244052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_5
+      name: gatu_dashh_sheet_5
       rect:
         serializedVersion: 2
-        x: 254
-        y: 6
-        width: 34
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 253
+        y: 3
+        width: 47
+        height: 37
+      alignment: 9
+      pivot: {x: 0.8806542, y: 0.7417673}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46660ee8a38df9430800000000000000
-      internalID: 3791987157286020708
+      spriteID: 742788f6933f03300800000000000000
+      internalID: 229951009005793863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_6
+      name: gatu_dashh_sheet_6
       rect:
         serializedVersion: 2
-        x: 303
-        y: 5
-        width: 36
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 300
+        y: 13
+        width: 50
+        height: 27
+      alignment: 9
+      pivot: {x: 0.8860638, y: 0.63949925}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7b88de289900b000800000000000000
-      internalID: 49550145126697855
+      spriteID: ad9ed95fe3ec19cd0800000000000000
+      internalID: -2553032743938299430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatu_andando_sheet_7
+      name: gatu_dashh_sheet_7
       rect:
         serializedVersion: 2
-        x: 354
-        y: 6
-        width: 34
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 13
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.8776283, y: 0.54413843}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba738dceee4e56a50800000000000000
-      internalID: 6513864150888232875
+      spriteID: f01ed34c7c9695570800000000000000
+      internalID: 8455906082076614927
       vertices: []
       indices: 
       edges: []
@@ -339,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2f6820745bf76c94d963454f7120222e
     internalID: 0
     vertices: []
     indices: 
@@ -349,14 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      gatu_andando_sheet_0: 174019665786890673
-      gatu_andando_sheet_1: -1164145787268278218
-      gatu_andando_sheet_2: -2551076786124204142
-      gatu_andando_sheet_3: 533464575738517775
-      gatu_andando_sheet_4: -8271885814704687164
-      gatu_andando_sheet_5: 3791987157286020708
-      gatu_andando_sheet_6: 49550145126697855
-      gatu_andando_sheet_7: 6513864150888232875
+      gatu_dashh_sheet_0: -8492844656659745445
+      gatu_dashh_sheet_1: -6715113086732245681
+      gatu_dashh_sheet_2: -5196817370890450320
+      gatu_dashh_sheet_3: -9086676302377723238
+      gatu_dashh_sheet_4: -7900479737029244052
+      gatu_dashh_sheet_5: 229951009005793863
+      gatu_dashh_sheet_6: -2553032743938299430
+      gatu_dashh_sheet_7: 8455906082076614927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

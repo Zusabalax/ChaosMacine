@@ -7,7 +7,7 @@ public class PlayerControl : MonoBehaviour
 {
     public static PlayerControl Instance;
     public static bool fly;
-    public static bool Jump;
+    private  bool Jump;
 
   
 
@@ -102,7 +102,7 @@ public class PlayerControl : MonoBehaviour
     {
         Player.AddForce(Vector2.up * FlyForce, ForceMode2D.Impulse);
         StartCoroutine(Cdfly());
-        OnJump.Invoke(); // Dispara o evento de pulo
+        OnJump?.Invoke(); // Dispara o evento de pulo
     }
 
     private void ExecuteDash()
@@ -111,13 +111,9 @@ public class PlayerControl : MonoBehaviour
         // Exemplo: dash rápido para a direita
         Player.AddForce(Vector2.right * Forca * 1.5f, ForceMode2D.Impulse);
 
-        OnDash.Invoke(); // Dispara o evento de dash
+        OnDash?.Invoke(); // Dispara o evento de dash
     }
 
-    void GroundCheck()
-    {
-        
-    }
 
     IEnumerator Cdfly()
     {

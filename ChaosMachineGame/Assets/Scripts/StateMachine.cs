@@ -43,10 +43,13 @@ public class StateMachine : MonoBehaviour
         switch (CurrentState)
         {
             case State.Run:
+              //  PlayerControl.Instance.Player.gravityScale = 4;
                 OnEnterRunState?.Invoke();
                 OnRunStateEnteredUnityEvent?.Invoke();
                 break;
             case State.Fly:
+                PlayerControl.fly = true; 
+              //  PlayerControl.Instance.Player.gravityScale = 0;
                 OnEnterFlyState?.Invoke();
                 OnFlyStateEnteredUnityEvent?.Invoke();
                 break;

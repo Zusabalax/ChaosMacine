@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Moha.unity
     guid: 59e80532194e46c4ca66f66dcffc2340
+  - enabled: 1
+    path: Assets/Scenes/Fase 1.unity
+    guid: d7cfddad9b1a0a046a1a203dd4b88d02
+  - enabled: 1
+    path: Assets/Scenes/CutScene.unity
+    guid: cc6eb5123c80e82488575253c1bab9bd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -15,6 +15,16 @@ public class PlatformController : MonoBehaviour
         public float chance;
     }
 
+    [Header("Configuração te tempo de jogo")]
+    [Tooltip("The time of end game.")]
+
+    public float endGameTime;
+
+    public bool isEndGame = false;
+
+    public GameObject Mvp;
+    public Transform  spownMvp;
+
     [Header("Configuração de movimento")]
     [Tooltip("The starting speed of all platforms.")]
     public float initialSpeed = 5f;
@@ -55,8 +65,16 @@ public class PlatformController : MonoBehaviour
 
     void Update()
     {
-        Accelerate();
-        HandleSpawnTimer();
+        if (!isEndGame)
+        {
+            Accelerate();
+            HandleSpawnTimer();
+        }
+        else
+        {
+           Instantiate(Mvp, spownMvp.position, Quaternion.identity);
+        }
+     
     }
 
     private void Accelerate()

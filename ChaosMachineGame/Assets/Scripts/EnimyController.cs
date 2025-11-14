@@ -33,7 +33,19 @@ public class EnimyController : MonoBehaviour
             health--;
             if(health <= 0)
             {
+                EconomyManager.Instance.AddCurrency(100);
+                if(finalBoss)
+                {
+                    EconomyManager.Instance.AddCurrency(100);
+                }
+                else if(nomalEnimy)
+                    EconomyManager.Instance.AddCurrency(10);
+
+                else
+                        EconomyManager.Instance.AddCurrency(50);
+
                 Destroy(gameObject);
+
             }
         }
     }

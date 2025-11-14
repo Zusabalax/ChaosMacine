@@ -608,54 +608,6 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &138636687
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 138636688}
-  - component: {fileID: 138636689}
-  m_Layer: 0
-  m_Name: EconomyManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &138636688
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138636687}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1574229320}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &138636689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138636687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29cbb7a6600c7fc47b71ca8c51f3b799, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EconomyManager
-  _playerCurrency: 1000
-  OnCurrencyUpdated:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &147368464
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,64 +994,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1327420554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &182212875
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 182212876}
-  - component: {fileID: 182212877}
-  m_Layer: 0
-  m_Name: SkillController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &182212876
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182212875}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1574229320}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &182212877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182212875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5098f1b6845c0e47915da5fbfaf2a5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SkillController
-  availableSkills:
-  - skillID: Skill2
-    skillName: aaaaaaaaa
-    skillDescription: aaaaaaaaaaaaaaaaaaaaaaaaaa
-    skillIcon: {fileID: 21300000, guid: e121060fc045d524c87d83650a9806a3, type: 3}
-    isLearned: 0
-    OnSkillActivated:
-      m_PersistentCalls:
-        m_Calls: []
-    OnSkillDeactivated:
-      m_PersistentCalls:
-        m_Calls: []
-    objectsToActivate: []
-    objectsToDeactivate: []
 --- !u!1 &185672009
 GameObject:
   m_ObjectHideFlags: 0
@@ -4722,6 +4616,7 @@ MonoBehaviour:
   OnDash:
     m_PersistentCalls:
       m_Calls: []
+  life: 9
 --- !u!1 &1232583257
 GameObject:
   m_ObjectHideFlags: 0
@@ -6224,56 +6119,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 24091727}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1574229320 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6624070292560102618, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
-  m_PrefabInstance: {fileID: 3071865301097885159}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1582035844
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1582035845}
-  - component: {fileID: 1582035846}
-  m_Layer: 0
-  m_Name: MoneyDisplay
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1582035845
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582035844}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1574229320}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1582035846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582035844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc6860dbf097131419f5391a3cd1f41d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MoneyDisplayUI
-  currencyText: {fileID: 2146074623}
 --- !u!1 &1582257073
 GameObject:
   m_ObjectHideFlags: 0
@@ -7856,6 +7701,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: --SCRIPTS
       objectReference: {fileID: 0}
+    - target: {fileID: 3444363765224153636, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
+      propertyPath: currencyText
+      value: 
+      objectReference: {fileID: 2146074623}
     - target: {fileID: 3583263548853440496, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
       propertyPath: OnFlyStateEnteredUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -7880,38 +7729,6 @@ PrefabInstance:
       propertyPath: shopItemsParent
       value: 
       objectReference: {fileID: 1512210590}
-    - target: {fileID: 5946868231225688805, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
-      propertyPath: availableItems.Array.data[0].OnItemPurchased.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5946868231225688805, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
-      propertyPath: availableItems.Array.data[0].OnItemPurchased.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5946868231225688805, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
-      propertyPath: availableItems.Array.data[0].OnItemPurchased.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 182212877}
-    - target: {fileID: 5946868231225688805, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
-      propertyPath: availableItems.Array.data[0].OnItemPurchased.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5946868231225688805, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
-      propertyPath: availableItems.Array.data[0].OnItemPurchased.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TryToLearn
-      objectReference: {fileID: 0}
-    - target: {fileID: 5946868231225688805, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
-      propertyPath: availableItems.Array.data[0].OnItemPurchased.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SkillController, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5946868231225688805, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
-      propertyPath: availableItems.Array.data[0].OnItemPurchased.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Skill2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5946868231225688805, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
-      propertyPath: availableItems.Array.data[0].OnItemPurchased.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 6624070292560102618, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -7970,16 +7787,7 @@ PrefabInstance:
       objectReference: {fileID: 1176756746}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6624070292560102618, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1582035845}
-    - targetCorrespondingSourceObject: {fileID: 6624070292560102618, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 182212876}
-    - targetCorrespondingSourceObject: {fileID: 6624070292560102618, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 138636688}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f65e8fe985b957468b6ad7dcd108073, type: 3}
 --- !u!1001 &6505171326090888110

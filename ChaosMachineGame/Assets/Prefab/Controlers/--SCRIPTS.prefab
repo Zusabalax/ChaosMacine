@@ -1,5 +1,63 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &702525122575254625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3590395791367821679}
+  - component: {fileID: 7257213387046243355}
+  m_Layer: 0
+  m_Name: SkillController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3590395791367821679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702525122575254625}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6624070292560102618}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7257213387046243355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702525122575254625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5098f1b6845c0e47915da5fbfaf2a5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkillController
+  availableSkills:
+  - skillID: Skill2
+    skillName: aaaaaaaaa
+    skillDescription: aaaaaaaaaaaaaaaaaaaaaaaaaa
+    skillIcon: {fileID: 21300000, guid: e121060fc045d524c87d83650a9806a3, type: 3}
+    isLearned: 0
+    OnSkillActivated:
+      m_PersistentCalls:
+        m_Calls: []
+    OnSkillDeactivated:
+      m_PersistentCalls:
+        m_Calls: []
+    objectsToActivate: []
+    objectsToDeactivate: []
 --- !u!1 &1089451726862643386
 GameObject:
   m_ObjectHideFlags: 0
@@ -44,6 +102,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47f24495391bd9447ab1d0fcb30aced8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DOTweenEffects
+--- !u!1 &2758750089409362705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3269461695279537842}
+  - component: {fileID: 513853067377503138}
+  m_Layer: 0
+  m_Name: EconomyManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3269461695279537842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2758750089409362705}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6624070292560102618}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &513853067377503138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2758750089409362705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29cbb7a6600c7fc47b71ca8c51f3b799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EconomyManager
+  _playerCurrency: 1000
+  OnCurrencyUpdated:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3429789418813437559
 GameObject:
   m_ObjectHideFlags: 0
@@ -75,11 +181,15 @@ Transform:
   m_Children:
   - {fileID: 6581156556660284705}
   - {fileID: 3505665963169283682}
+  - {fileID: 6868912924914092484}
   - {fileID: 6262820041673767718}
   - {fileID: 4114055326266557559}
   - {fileID: 2933344196169393064}
   - {fileID: 3078565689291075713}
   - {fileID: 3596652044621130589}
+  - {fileID: 4484179401521770257}
+  - {fileID: 3590395791367821679}
+  - {fileID: 3269461695279537842}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3803248758510040441
@@ -269,6 +379,111 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &4757960678881565905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4484179401521770257}
+  - component: {fileID: 3444363765224153636}
+  m_Layer: 0
+  m_Name: MoneyDisplay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4484179401521770257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4757960678881565905}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6624070292560102618}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3444363765224153636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4757960678881565905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc6860dbf097131419f5391a3cd1f41d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoneyDisplayUI
+  currencyText: {fileID: 0}
+--- !u!1 &4802797409307136259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6868912924914092484}
+  - component: {fileID: 8610213765593692968}
+  m_Layer: 0
+  m_Name: EnimiControler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6868912924914092484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4802797409307136259}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6624070292560102618}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8610213765593692968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4802797409307136259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa79342235a29d048b9c3b84d5b9b091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endGameTime: 0
+  isEndGame: 0
+  Mvp: {fileID: 0}
+  spownMvp: {fileID: 0}
+  initialSpeed: 5
+  maxSpeed: 10
+  acceleration: 0.01
+  spawnInterval: 1
+  spawnPoint: {fileID: 0}
+  spawnYOffsetRange: {x: 0, y: 2}
+  platformLifetime: 6
+  platformTypes:
+  - name: Teste
+    chance: 60
+  - name: Teste2
+    chance: 40
 --- !u!1 &5148518804127258948
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,7 +569,19 @@ MonoBehaviour:
     insufficientFundsMessage: Sem dinheiro
     OnItemPurchased:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 7257213387046243355}
+          m_TargetAssemblyTypeName: SkillController, Assembly-CSharp
+          m_MethodName: TryToLearn
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Skill2
+            m_BoolArgument: 0
+          m_CallState: 2
   - itemID: Transa
     itemName: transa
     itemDescription: "Descri\xE7\xE3o sobre transa"
@@ -367,12 +594,6 @@ MonoBehaviour:
         m_Calls: []
   shopItemsParent: {fileID: 0}
   shopItemUIPrefab: {fileID: 4652593345542223093, guid: c1276d503d6dd8747aa7e0a4cb81480a, type: 3}
-  OnCurrencyUpdated:
-    m_PersistentCalls:
-      m_Calls: []
-  OnMessageDisplayed:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &7790267096237242281
 GameObject:
   m_ObjectHideFlags: 0

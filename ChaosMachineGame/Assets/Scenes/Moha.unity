@@ -1317,6 +1317,66 @@ PrefabInstance:
       propertyPath: _originalPosition
       value: 
       objectReference: {fileID: 120611918}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnJump.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnJump.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1886818667}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnJump.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1886818667}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnJump.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayButtonSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnJump.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayButtonSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayAudioButton, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnJump.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayAudioButton, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnJump.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Rif_Pesadao
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
+      propertyPath: OnJump.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1431,8 +1491,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1886818666}
+  - component: {fileID: 1886818667}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: PlaySound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1453,6 +1514,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1886818667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886818665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e49df72fc1d9754a8317586d1fc6431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayAudioButton
 --- !u!1 &1903727678
 GameObject:
   m_ObjectHideFlags: 0

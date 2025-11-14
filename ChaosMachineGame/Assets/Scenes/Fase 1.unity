@@ -2485,11 +2485,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 --- !u!1 &754093052
 GameObject:
   m_ObjectHideFlags: 0
@@ -2623,10 +2618,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754093052}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 --- !u!1 &828426108
 GameObject:
   m_ObjectHideFlags: 0
@@ -3001,14 +2992,7 @@ Transform:
   - {fileID: 1232583258}
   - {fileID: 1176756750}
   - {fileID: 627238077}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
   - {fileID: 1818962625}
->>>>>>> Stashed changes
-=======
-  - {fileID: 1818962625}
->>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &989652853
@@ -3086,11 +3070,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989652853}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 --- !u!1 &1002780605
 GameObject:
   m_ObjectHideFlags: 0
@@ -3227,10 +3206,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002780605}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 --- !u!1 &1038216422
 GameObject:
   m_ObjectHideFlags: 0
@@ -5820,15 +5795,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  m_AnchoredPosition: {x: 431.6, y: -330.65}
-=======
   m_AnchoredPosition: {x: 431.60004, y: -330.65}
->>>>>>> Stashed changes
-=======
-  m_AnchoredPosition: {x: 431.60004, y: -330.65}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 600, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1758973505
@@ -6120,11 +6087,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800891618}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 --- !u!1 &1818962624
 GameObject:
   m_ObjectHideFlags: 0
@@ -6227,10 +6189,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 --- !u!1001 &1821191535
 PrefabInstance:
   m_ObjectHideFlags: 0

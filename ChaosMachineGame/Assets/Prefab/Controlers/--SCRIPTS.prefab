@@ -198,6 +198,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: set_runtimeAnimatorController
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 9100000, guid: b5ab26f048ad94f4480461778ccb5993, type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.RuntimeAnimatorController,
+            UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnFlyStateEnteredUnityEvent:
     m_PersistentCalls:
       m_Calls:
@@ -208,6 +221,19 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: set_runtimeAnimatorController
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 9100000, guid: e4ba5e377e34d3d4c84c891053ac54fe, type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.RuntimeAnimatorController,
+            UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -268,7 +294,7 @@ Transform:
   m_GameObject: {fileID: 5148518804127258948}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 7.58, y: 3.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -445,14 +471,14 @@ MonoBehaviour:
   Mvp: {fileID: 0}
   spownMvp: {fileID: 0}
   initialSpeed: 5
-  maxSpeed: 20
-  acceleration: 0.2
-  spawnInterval: 2
+  maxSpeed: 10
+  acceleration: 0.01
+  spawnInterval: 1
   spawnPoint: {fileID: 0}
-  spawnYOffsetRange: {x: -2, y: 2}
-  platformLifetime: 10
+  spawnYOffsetRange: {x: 0, y: 2}
+  platformLifetime: 6
   platformTypes:
   - name: Teste
-    chance: 80
+    chance: 60
   - name: Teste2
-    chance: 10.4
+    chance: 40

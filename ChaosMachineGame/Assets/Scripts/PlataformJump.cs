@@ -5,12 +5,12 @@ using UnityEngine;
 public class PlataformJump : MonoBehaviour
 {
     [SerializeField]
-    private float _endValue,_duration;
+    private float speed;
    
 
 
     private void Update()
     {
-       this.transform.DOMoveX(_endValue, _duration);    
+       this.transform.Translate(-speed*Time.deltaTime,0,0);    
     }
 }

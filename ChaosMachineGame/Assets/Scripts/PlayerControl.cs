@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 using UnityEngine.Events;
+using UnityEditor.Animations;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -12,8 +13,7 @@ public class PlayerControl : MonoBehaviour
     [SerializeField]
     private Transform _originalPosition;
 
-    [SerializeField]
-    private Rigidbody2D Player;
+     public  Rigidbody2D Player;
     [SerializeField]
     private float Forca, FlyForce,_dashForce, Jumptime;
     [SerializeField]
@@ -22,6 +22,8 @@ public class PlayerControl : MonoBehaviour
     [SerializeField]
     private Animator _animator;
 
+    [SerializeField]
+    private AnimatorController _gargulaController, _catController;
     // Unity Events
     public UnityEvent OnJump;
     public UnityEvent OnDash;
@@ -69,6 +71,9 @@ public class PlayerControl : MonoBehaviour
         // Input para dash (exemplo com Left Shift)
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
+            if(fly)
+                ExecuteFlyDASH();
+            else
             ExecuteDash();
         }
     }
@@ -77,6 +82,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (!fly)
         {
+           
             if (_jump)
             {
                 ExecuteJump();
@@ -84,6 +90,7 @@ public class PlayerControl : MonoBehaviour
         }
         else
         {
+           
             ExecuteFlyJump();
         }
     }
@@ -91,6 +98,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (!fly)
         {
+           
             if (_jump)
             {
                 ExecuteDash();
@@ -98,7 +106,8 @@ public class PlayerControl : MonoBehaviour
         }
         else
         {
-            ExecuteDash();
+
+            ExecuteFlyDASH();
         }
     }
 
@@ -120,7 +129,16 @@ public class PlayerControl : MonoBehaviour
 
     private void ExecuteFlyJump()
     {
-        Player.AddForce(Vector2.up * FlyForce, ForceMode2D.Impulse);
+       
+        Player.gameObject.GetComponent<SpriteRenderer>().flipX = true;
+        Player.AddForce(new Vector2(-1,5) * FlyForce, ForceMode2D.Impulse);
+        StartCoroutine(Cdfly());
+        OnJump?.Invoke(); // Dispara o evento de pulo
+    }
+    private void ExecuteFlyDASH()
+    {
+        Player.gameObject.GetComponent<SpriteRenderer>().flipX = false;
+        Player.AddForce(new Vector2(1, 5) * FlyForce, ForceMode2D.Impulse);
         StartCoroutine(Cdfly());
         OnJump?.Invoke(); // Dispara o evento de pulo
     }
@@ -187,7 +205,7 @@ public class PlayerControl : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer== 3)
+        if (collision.gameObject.layer== 3 && !fly)
         {
             _animator.SetBool("Jump", false);
             Player.linearVelocity = Vector2.zero;
@@ -198,11 +216,6 @@ public class PlayerControl : MonoBehaviour
             _jump = true;
         }
     }
-    IEnumerator PlataformFix(Transform platform)
-    {
-        Player.transform.SetParent(platform);
-        yield return new WaitForSeconds(0.2f);
-        Player.transform.SetParent(_originalPosition);
-    }
+   
 
 }

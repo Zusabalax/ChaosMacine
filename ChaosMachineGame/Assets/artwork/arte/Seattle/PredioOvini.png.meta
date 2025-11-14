@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: 608109f774b3e934a91cdbbe5b2afba6
+guid: 62ed7044dc4186b47bd2aaa78dbe017a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9073780614008097114
-    second: gargula_gatu_sheet_0
+      213: -1989774368919529935
+    second: PredioOvini_0
   - first:
-      213: 5964999970773689113
-    second: gargula_gatu_sheet_1
+      213: 3214478105261836237
+    second: PredioOvini_1
   - first:
-      213: -7128778922321305273
-    second: gargula_gatu_sheet_2
-  - first:
-      213: 3390043422738916515
-    second: gargula_gatu_sheet_3
-  - first:
-      213: -8514111206892793850
-    second: gargula_gatu_sheet_4
-  - first:
-      213: 748474054205829257
-    second: gargula_gatu_sheet_5
+      213: 3879926254923013202
+    second: PredioOvini_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -61,17 +52,17 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  alignment: 9
+  spritePivot: {x: 0.49488762, y: 0.8317429}
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -128,143 +119,95 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gargula_gatu_sheet_0
+      name: PredioOvini_0
       rect:
         serializedVersion: 2
-        x: 51
-        y: 26
-        width: 77
-        height: 126
-      alignment: 9
-      pivot: {x: 0.501948, y: 0.5006933}
+        x: 223
+        y: 235
+        width: 365
+        height: 984
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a6b8344b94731280800000000000000
-      internalID: -9073780614008097114
+      spriteID: 136df55f0c6e264e0800000000000000
+      internalID: -1989774368919529935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gargula_gatu_sheet_1
+      name: PredioOvini_1
       rect:
         serializedVersion: 2
-        x: 236
-        y: 26
-        width: 92
-        height: 113
-      alignment: 9
-      pivot: {x: 0.58342344, y: 0.5583316}
+        x: 584
+        y: 1121
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9136e279edfe7c250800000000000000
-      internalID: 5964999970773689113
+      spriteID: dc707624ece1c9c20800000000000000
+      internalID: 3214478105261836237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gargula_gatu_sheet_2
+      name: PredioOvini_2
       rect:
         serializedVersion: 2
-        x: 443
-        y: 26
-        width: 90
-        height: 91
-      alignment: 9
-      pivot: {x: 0.5160519, y: 0.69547164}
+        x: 589
+        y: 1133
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7412fbc075d711d90800000000000000
-      internalID: -7128778922321305273
+      spriteID: 25cd5634f5448d530800000000000000
+      internalID: 3879926254923013202
       vertices: []
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: gargula_gatu_sheet_3
-      rect:
-        serializedVersion: 2
-        x: 664
-        y: 26
-        width: 62
-        height: 87
-      alignment: 9
-      pivot: {x: 0.4155303, y: 0.7221025}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a4a081288adb0f20800000000000000
-      internalID: 3390043422738916515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gargula_gatu_sheet_4
-      rect:
-        serializedVersion: 2
-        x: 844
-        y: 26
-        width: 90
-        height: 88
-      alignment: 9
-      pivot: {x: 0.5070218, y: 0.71650046}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6009bfe87fcc7d980800000000000000
-      internalID: -8514111206892793850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gargula_gatu_sheet_5
-      rect:
-        serializedVersion: 2
-        x: 1034
-        y: 26
-        width: 99
-        height: 112
-      alignment: 9
-      pivot: {x: 0.56293154, y: 0.561271}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 980f88ccf2d136a00800000000000000
-      internalID: 748474054205829257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline: []
+    outline:
+    - - {x: -193.85269, y: 345.92023}
+      - {x: -97, y: 312}
+      - {x: -69, y: 171}
+      - {x: -77, y: -159}
+      - {x: -139, y: -402}
+      - {x: 132, y: -402}
+      - {x: 115, y: -268}
+      - {x: 67, y: 9}
+      - {x: 84, y: 277}
+      - {x: 175, y: 343}
+      - {x: 178, y: 453}
+      - {x: 72, y: 499}
+      - {x: 24, y: 523}
+      - {x: 20, y: 605}
+      - {x: -27, y: 603}
+      - {x: -26, y: 538}
+      - {x: -111, y: 464}
+      - {x: -187, y: 469}
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7a8f6896553def24190eb01d2643a164
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -273,12 +216,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      gargula_gatu_sheet_0: -9073780614008097114
-      gargula_gatu_sheet_1: 5964999970773689113
-      gargula_gatu_sheet_2: -7128778922321305273
-      gargula_gatu_sheet_3: 3390043422738916515
-      gargula_gatu_sheet_4: -8514111206892793850
-      gargula_gatu_sheet_5: 748474054205829257
+      PredioOvini_0: -1989774368919529935
+      PredioOvini_1: 3214478105261836237
+      PredioOvini_2: 3879926254923013202
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

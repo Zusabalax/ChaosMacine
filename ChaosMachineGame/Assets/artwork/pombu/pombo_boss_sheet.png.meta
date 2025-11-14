@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: 2569d9fe9564ce8488613b21b96d00b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8119001531814573248
+    second: pombo_boss_sheet_0
+  - first:
+      213: -4569247971917958541
+    second: pombo_boss_sheet_1
+  - first:
+      213: 6697375261598824917
+    second: pombo_boss_sheet_2
+  - first:
+      213: -2808796623447696568
+    second: pombo_boss_sheet_3
+  - first:
+      213: -1727147508908926301
+    second: pombo_boss_sheet_4
+  - first:
+      213: 5302215003282017199
+    second: pombo_boss_sheet_5
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pombo_boss_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 11
+        width: 98
+        height: 89
+      alignment: 9
+      pivot: {x: 0.46270615, y: 0.66560555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b07558f13835f80800000000000000
+      internalID: -8119001531814573248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pombo_boss_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 11
+        width: 98
+        height: 89
+      alignment: 9
+      pivot: {x: 0.4624106, y: 0.66665196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372f72fad25c690c0800000000000000
+      internalID: -4569247971917958541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pombo_boss_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 11
+        width: 98
+        height: 89
+      alignment: 9
+      pivot: {x: 0.4641641, y: 0.66704756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d93613f05bd1fc50800000000000000
+      internalID: 6697375261598824917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pombo_boss_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 11
+        width: 98
+        height: 89
+      alignment: 9
+      pivot: {x: 0.46416396, y: 0.66704756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b55154a562509d0800000000000000
+      internalID: -2808796623447696568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pombo_boss_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 11
+        width: 98
+        height: 89
+      alignment: 9
+      pivot: {x: 0.46297002, y: 0.668363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa58c0dd70f708e0800000000000000
+      internalID: -1727147508908926301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pombo_boss_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 11
+        width: 98
+        height: 89
+      alignment: 9
+      pivot: {x: 0.46177518, y: 0.66704756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab0f510470459940800000000000000
+      internalID: 5302215003282017199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 14d9c4cde48fa314c8acd2145148d896
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pombo_boss_sheet_0: -8119001531814573248
+      pombo_boss_sheet_1: -4569247971917958541
+      pombo_boss_sheet_2: 6697375261598824917
+      pombo_boss_sheet_3: -2808796623447696568
+      pombo_boss_sheet_4: -1727147508908926301
+      pombo_boss_sheet_5: 5302215003282017199
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

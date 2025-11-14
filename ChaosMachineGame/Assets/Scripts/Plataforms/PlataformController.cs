@@ -57,6 +57,7 @@ public class PlatformController : MonoBehaviour
     private float totalChance;
 
     private float timeFase=0;
+    private bool mvpSpawned = false;
 
 
 
@@ -72,23 +73,19 @@ public class PlatformController : MonoBehaviour
     void Update()
     {
         timeFase += Time.deltaTime;
-        if(timeFase>= endGameTime)
+
+        // Verifica se é hora de spawnar o MVP
+        if (timeFase >= endGameTime && !mvpSpawned)
         {
-            isEndGame = true;
+            Instantiate(Mvp, spownMvp.position, Quaternion.identity);
+            mvpSpawned = true; // Garante que spawna apenas uma vez
+            isEndGame = true;  // Marca o fim do jogo
         }
 
-
-        if (!isEndGame)
-        {
+       
             Accelerate();
             HandleSpawnTimer();
-        }
-        else
-        {
-           Instantiate(Mvp, spownMvp.position, Quaternion.identity);
-            isEndGame = false;
-        }
-     
+        
     }
 
     private void Accelerate()

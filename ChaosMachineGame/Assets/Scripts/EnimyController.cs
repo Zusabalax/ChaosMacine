@@ -22,8 +22,22 @@ public class EnimyController : MonoBehaviour
     [SerializeField]
     private bool finalBoss, nomalEnimy;
 
+    [SerializeField]
+    int health;
 
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("BulletPlayer"))
+        {
+            health--;
+            if(health <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void OnEnable()

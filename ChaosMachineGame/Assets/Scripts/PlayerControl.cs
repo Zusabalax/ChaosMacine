@@ -28,6 +28,8 @@ public class PlayerControl : MonoBehaviour
     public UnityEvent OnJump;
     public UnityEvent OnDash;
 
+    public int life=9;
+
     void Awake()
     {
         if (Instance == null)
@@ -50,6 +52,14 @@ public class PlayerControl : MonoBehaviour
 
     void Update()
     {
+
+
+        if(life<=0)
+        {
+            StateMachine.Instance.SetState(StateMachine.State.GameOver);
+        }
+
+
         if (!fly)
         {
             if (_jump)
@@ -214,6 +224,13 @@ public class PlayerControl : MonoBehaviour
             Player.transform.SetParent(collision.transform);
           
             _jump = true;
+        }
+
+        if (collision.gameObject.layer == 6)
+        {
+           life--;
+
+
         }
     }
    

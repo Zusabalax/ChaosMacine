@@ -133,4 +133,10 @@ public class SceneTransitionManager : MonoBehaviour
             loadingCanvas.SetActive(false);
         }
     }
+
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

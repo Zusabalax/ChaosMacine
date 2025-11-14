@@ -24,6 +24,7 @@ public class PlatformController : MonoBehaviour
 
     public GameObject Mvp;
     public Transform  spownMvp;
+    
 
     [Header("Configuração de movimento")]
     [Tooltip("The starting speed of all platforms.")]
@@ -55,6 +56,12 @@ public class PlatformController : MonoBehaviour
     private ObjectPooler objectPooler;
     private float totalChance;
 
+    private float timeFase=0;
+    private bool mvpSpawned = false;
+
+
+
+
     void Start()
     {
         objectPooler = ObjectPooler.Instance;
@@ -65,16 +72,20 @@ public class PlatformController : MonoBehaviour
 
     void Update()
     {
-        if (!isEndGame)
+        timeFase += Time.deltaTime;
+
+        // Verifica se é hora de spawnar o MVP
+        if (timeFase >= endGameTime && !mvpSpawned)
         {
+            Instantiate(Mvp, spownMvp.position, Quaternion.identity);
+            mvpSpawned = true; // Garante que spawna apenas uma vez
+            isEndGame = true;  // Marca o fim do jogo
+        }
+
+       
             Accelerate();
             HandleSpawnTimer();
-        }
-        else
-        {
-           Instantiate(Mvp, spownMvp.position, Quaternion.identity);
-        }
-     
+        
     }
 
     private void Accelerate()

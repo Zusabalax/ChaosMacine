@@ -62,7 +62,7 @@ public class SceneTransitionManager : MonoBehaviour
             if (loadingCanvasRect != null)
             {
                 loadingCanvasRect.anchoredPosition = Vector2.zero;
-            }
+            }s
             loadingCanvas.SetActive(true);
         }
         StartCoroutine(LoadAsyncScene());

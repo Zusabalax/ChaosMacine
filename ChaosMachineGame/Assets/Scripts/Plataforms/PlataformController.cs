@@ -24,6 +24,7 @@ public class PlatformController : MonoBehaviour
 
     public GameObject Mvp;
     public Transform  spownMvp;
+    
 
     [Header("Configuração de movimento")]
     [Tooltip("The starting speed of all platforms.")]
@@ -55,6 +56,11 @@ public class PlatformController : MonoBehaviour
     private ObjectPooler objectPooler;
     private float totalChance;
 
+    private float timeFase=0;
+
+
+
+
     void Start()
     {
         objectPooler = ObjectPooler.Instance;
@@ -65,6 +71,13 @@ public class PlatformController : MonoBehaviour
 
     void Update()
     {
+        timeFase += Time.deltaTime;
+        if(timeFase>= endGameTime)
+        {
+            isEndGame = true;
+        }
+
+
         if (!isEndGame)
         {
             Accelerate();
@@ -73,6 +86,7 @@ public class PlatformController : MonoBehaviour
         else
         {
            Instantiate(Mvp, spownMvp.position, Quaternion.identity);
+            isEndGame = false;
         }
      
     }

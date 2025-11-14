@@ -1366,10 +1366,6 @@ PrefabInstance:
       value: PlayAudioButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
-      propertyPath: OnDash.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Rif_Pesadao
-      objectReference: {fileID: 0}
-    - target: {fileID: 8246150651922245865, guid: 691c0ef2dc259ee4a81fa2b5e4753ce6, type: 3}
       propertyPath: OnJump.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Rif_Pesadao
       objectReference: {fileID: 0}

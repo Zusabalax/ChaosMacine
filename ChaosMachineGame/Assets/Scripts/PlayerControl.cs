@@ -198,11 +198,6 @@ public class PlayerControl : MonoBehaviour
             _jump = true;
         }
     }
-    IEnumerator PlataformFix(Transform platform)
-    {
-        Player.transform.SetParent(platform);
-        yield return new WaitForSeconds(0.2f);
-        Player.transform.SetParent(_originalPosition);
-    }
+   
 
 }

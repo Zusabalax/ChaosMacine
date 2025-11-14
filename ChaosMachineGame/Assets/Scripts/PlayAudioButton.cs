@@ -2,12 +2,13 @@ using UnityEngine;
 
 public class PlayAudioButton : MonoBehaviour
 {
-   
+    
+ 
 
 
-    public void PlayButtonSound(string name)
+    public void PlayButtonSound(string nameSound)
     {
-        SoundControler.Instance.PlayAudio(name);    
+        SoundControler.Instance.PlayAudio(nameSound);    
     }
 
    

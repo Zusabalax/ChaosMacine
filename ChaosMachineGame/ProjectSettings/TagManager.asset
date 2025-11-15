@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - BulletPlayer
+  - Final
   layers:
   - Default
   - TransparentFX

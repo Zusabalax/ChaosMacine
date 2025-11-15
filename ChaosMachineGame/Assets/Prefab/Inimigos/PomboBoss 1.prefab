@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 280790095463089939}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SkillPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 8823774820288499394}
   - component: {fileID: 6658405373915226048}
   - component: {fileID: 3651219877848254123}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: PomboBoss 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,14 +59,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7676215162517957289}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 3.23, y: 3.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 280790095463089939}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &630853931162784029
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -166,6 +166,7 @@ MonoBehaviour:
   animator: {fileID: 8823774820288499394}
   finalBoss: 0
   nomalEnimy: 0
+  health: 7
 --- !u!61 &3651219877848254123
 BoxCollider2D:
   m_ObjectHideFlags: 0

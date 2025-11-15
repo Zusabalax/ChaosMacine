@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 608109f774b3e934a91cdbbe5b2afba6
+guid: 90d6d9505f70ab84e8b0cbfe994e32bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9073780614008097114
-    second: gargula_gatu_sheet_0
+      213: 1443895985612066323
+    second: gargula_gatu_guita_sheet_0
   - first:
-      213: 5964999970773689113
-    second: gargula_gatu_sheet_1
+      213: -6860412453115342459
+    second: gargula_gatu_guita_sheet_1
   - first:
-      213: -7128778922321305273
-    second: gargula_gatu_sheet_2
+      213: -5810106066804935816
+    second: gargula_gatu_guita_sheet_2
   - first:
-      213: 3390043422738916515
-    second: gargula_gatu_sheet_3
+      213: -7888189067259348512
+    second: gargula_gatu_guita_sheet_3
   - first:
-      213: -8514111206892793850
-    second: gargula_gatu_sheet_4
+      213: -9103659103870287439
+    second: gargula_gatu_guita_sheet_4
   - first:
-      213: 748474054205829257
-    second: gargula_gatu_sheet_5
+      213: 553891106708551060
+    second: gargula_gatu_guita_sheet_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,155 +128,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gargula_gatu_sheet_0
+      name: gargula_gatu_guita_sheet_0
       rect:
         serializedVersion: 2
-        x: 39
+        x: 51
         y: 26
-        width: 89
-        height: 131
-      alignment: 9
-      pivot: {x: 0.45873448, y: 0.49558747}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a6b8344b94731280800000000000000
-      internalID: -9073780614008097114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gargula_gatu_sheet_1
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 26
-        width: 105
-        height: 114
-      alignment: 9
-      pivot: {x: 0.54042476, y: 0.57446665}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9136e279edfe7c250800000000000000
-      internalID: 5964999970773689113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gargula_gatu_sheet_2
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 26
-        width: 104
-        height: 94
-      alignment: 9
-      pivot: {x: 0.4904483, y: 0.68366855}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7412fbc075d711d90800000000000000
-      internalID: -7128778922321305273
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gargula_gatu_sheet_3
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 26
-        width: 86
-        height: 91
-      alignment: 9
-      pivot: {x: 0.4619751, y: 0.7099102}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a4a081288adb0f20800000000000000
-      internalID: 3390043422738916515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gargula_gatu_sheet_4
-      rect:
-        serializedVersion: 2
-        x: 825
-        y: 26
-        width: 109
-        height: 92
-      alignment: 9
-      pivot: {x: 0.50295097, y: 0.7140886}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6009bfe87fcc7d980800000000000000
-      internalID: -8514111206892793850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gargula_gatu_sheet_5
-      rect:
-        serializedVersion: 2
-        x: 1021
-        y: 26
-        width: 112
-        height: 114
-      alignment: 9
-      pivot: {x: 0.53123254, y: 0.5651641}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 980f88ccf2d136a00800000000000000
-      internalID: 748474054205829257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gargula_gatu_sheet_6
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 158
-        width: 38
-        height: 36
+        width: 79
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 212804bf82561d345885fdef0e254f46
-      internalID: 1006794163
+      spriteID: 31e0503bfbfb90410800000000000000
+      internalID: 1443895985612066323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargula_gatu_guita_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 26
+        width: 94
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581d46fc83beac0a0800000000000000
+      internalID: -6860412453115342459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargula_gatu_guita_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 26
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873ffb4c05b5e5fa0800000000000000
+      internalID: -5810106066804935816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargula_gatu_guita_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 26
+        width: 66
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9f2e436d5878290800000000000000
+      internalID: -7888189067259348512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargula_gatu_guita_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 26
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b18f8d374e49a180800000000000000
+      internalID: -9103659103870287439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargula_gatu_guita_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 26
+        width: 96
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4957c93e601dfa700800000000000000
+      internalID: 553891106708551060
       vertices: []
       indices: 
       edges: []
@@ -285,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7a8f6896553def24190eb01d2643a164
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -295,13 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      gargula_gatu_sheet_0: -9073780614008097114
-      gargula_gatu_sheet_1: 5964999970773689113
-      gargula_gatu_sheet_2: -7128778922321305273
-      gargula_gatu_sheet_3: 3390043422738916515
-      gargula_gatu_sheet_4: -8514111206892793850
-      gargula_gatu_sheet_5: 748474054205829257
-      gargula_gatu_sheet_6: 1006794163
+      gargula_gatu_guita_sheet_0: 1443895985612066323
+      gargula_gatu_guita_sheet_1: -6860412453115342459
+      gargula_gatu_guita_sheet_2: -5810106066804935816
+      gargula_gatu_guita_sheet_3: -7888189067259348512
+      gargula_gatu_guita_sheet_4: -9103659103870287439
+      gargula_gatu_guita_sheet_5: 553891106708551060
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

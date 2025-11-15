@@ -83,4 +83,6 @@ public class StateMachine : MonoBehaviour
     {
         SetState(State.GameOver);
     }
+
+   
 }

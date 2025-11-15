@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8585994432726531948}
   - component: {fileID: 3983626775003771535}
   - component: {fileID: 5952124574723336931}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: NormalEnimy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180,3 +180,4 @@ MonoBehaviour:
   animator: {fileID: 0}
   finalBoss: 0
   nomalEnimy: 1
+  health: 1

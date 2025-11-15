@@ -26,18 +26,69 @@ public class EnimyController : MonoBehaviour
     int health;
 
 
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+
+    //    if (collision.gameObject.CompareTag("BulletPlayer"))
+    //    {
+    //        health--;
+    //        if (health <= 0)
+    //        {
+    //            EconomyManager.Instance.AddCurrency(100);
+    //            if (finalBoss)
+    //            {
+    //                EconomyManager.Instance.AddCurrency(100);
+    //            }
+    //            else if (nomalEnimy)
+    //                EconomyManager.Instance.AddCurrency(10);
+
+    //            else
+    //                EconomyManager.Instance.AddCurrency(50);
+
+    //            Destroy(gameObject);
+
+    //        }
+    //    }
+    //    if (nomalEnimy)
+    //    {
+    //        if (collision.gameObject.CompareTag("Final"))
+    //        {
+    //            Destroy(gameObject);
+    //        }
+    //    }
+    //}
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("BulletPlayer"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             health--;
-            if(health <= 0)
+            if (health <= 0)
+            {
+                EconomyManager.Instance.AddCurrency(100);
+                if (finalBoss)
+                {
+                    EconomyManager.Instance.AddCurrency(100);
+                }
+                else if (nomalEnimy)
+                    EconomyManager.Instance.AddCurrency(10);
+
+                else
+                    EconomyManager.Instance.AddCurrency(50);
+
+                Destroy(gameObject);
+
+            }
+        }
+        if (nomalEnimy)
+        {
+            if (collision.gameObject.CompareTag("Final"))
             {
                 Destroy(gameObject);
             }
         }
     }
-    
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void OnEnable()

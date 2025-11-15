@@ -48,14 +48,16 @@ public class Skill
     /// </summary>
     public void ActivateEffects()
     {
-        foreach (GameObject obj in objectsToActivate)
-        {
-            if (obj != null) obj.SetActive(true);
-        }
-        foreach (GameObject obj in objectsToDeactivate)
-        {
-            if (obj != null) obj.SetActive(false);
-        }
+
+        PlayerControl.Instance.UpgrateSkill();
+        //foreach (GameObject obj in objectsToActivate)
+        //{
+        //    if (obj != null) obj.SetActive(true);
+        //}
+        //foreach (GameObject obj in objectsToDeactivate)
+        //{
+        //    if (obj != null) obj.SetActive(false);
+        //}
         OnSkillActivated?.Invoke();
         Debug.Log($"Habilidade '{skillName}' ativada.");
     }

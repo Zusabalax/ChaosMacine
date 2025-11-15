@@ -11,7 +11,7 @@ public class MovingPlatform : MonoBehaviour
     private void Start()
     {
         x_endPoint=GameObject.FindWithTag("Finish").transform.position.x;
-        Debug.Log(GameObject.FindWithTag("Finish").name+"-------------------------------------------------------------------------------------");
+       
     }
 
     public void Initialize(float speed, float lifetime, string poolName)

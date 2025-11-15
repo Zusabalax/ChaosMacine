@@ -1,5 +1,63 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &702525122575254625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3590395791367821679}
+  - component: {fileID: 7257213387046243355}
+  m_Layer: 0
+  m_Name: SkillController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3590395791367821679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702525122575254625}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6624070292560102618}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7257213387046243355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702525122575254625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5098f1b6845c0e47915da5fbfaf2a5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkillController
+  availableSkills:
+  - skillID: Skill2
+    skillName: aaaaaaaaa
+    skillDescription: aaaaaaaaaaaaaaaaaaaaaaaaaa
+    skillIcon: {fileID: 21300000, guid: e121060fc045d524c87d83650a9806a3, type: 3}
+    isLearned: 0
+    OnSkillActivated:
+      m_PersistentCalls:
+        m_Calls: []
+    OnSkillDeactivated:
+      m_PersistentCalls:
+        m_Calls: []
+    objectsToActivate: []
+    objectsToDeactivate: []
 --- !u!1 &1089451726862643386
 GameObject:
   m_ObjectHideFlags: 0
@@ -44,6 +102,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47f24495391bd9447ab1d0fcb30aced8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DOTweenEffects
+--- !u!1 &2758750089409362705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3269461695279537842}
+  - component: {fileID: 513853067377503138}
+  m_Layer: 0
+  m_Name: EconomyManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3269461695279537842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2758750089409362705}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6624070292560102618}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &513853067377503138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2758750089409362705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29cbb7a6600c7fc47b71ca8c51f3b799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EconomyManager
+  _playerCurrency: 1000
+  OnCurrencyUpdated:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3429789418813437559
 GameObject:
   m_ObjectHideFlags: 0
@@ -80,6 +186,10 @@ Transform:
   - {fileID: 2933344196169393064}
   - {fileID: 3078565689291075713}
   - {fileID: 3596652044621130589}
+  - {fileID: 4484179401521770257}
+  - {fileID: 3590395791367821679}
+  - {fileID: 3269461695279537842}
+  - {fileID: 5874798353734300292}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3803248758510040441
@@ -137,6 +247,10 @@ MonoBehaviour:
     size: 5
   - nome: Colisao
     objectPrefab: {fileID: 1967835574231978638, guid: 3e196c9e632c76841a71cb6e2dc6d010, type: 3}
+    parent: {fileID: 0}
+    size: 5
+  - nome: pombo
+    objectPrefab: {fileID: 8989735292275739146, guid: e67a87c4b5e18e94c85b566bcbc84301, type: 3}
     parent: {fileID: 0}
     size: 5
 --- !u!1 &4153898651010871433
@@ -231,7 +345,7 @@ MonoBehaviour:
         m_MethodName: set_runtimeAnimatorController
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 9100000, guid: e4ba5e377e34d3d4c84c891053ac54fe, type: 2}
+          m_ObjectArgument: {fileID: 9100000, guid: 274e4208e19eca9469c338592a212432, type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.RuntimeAnimatorController,
             UnityEngine
           m_IntArgument: 0
@@ -254,6 +368,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PAuse, Assembly-CSharp
+        m_MethodName: PauseGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnGameOverStateEnteredUnityEvent:
     m_PersistentCalls:
       m_Calls:
@@ -269,6 +395,51 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &4757960678881565905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4484179401521770257}
+  - component: {fileID: 3444363765224153636}
+  m_Layer: 0
+  m_Name: MoneyDisplay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4484179401521770257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4757960678881565905}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6624070292560102618}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3444363765224153636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4757960678881565905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc6860dbf097131419f5391a3cd1f41d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoneyDisplayUI
+  currencyText: {fileID: 0}
 --- !u!1 &5148518804127258948
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,34 +516,78 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StoreController
   availableItems:
-  - itemID: Sexo
-    itemName: sexo
-    itemDescription: "Descri\xE7\xE3o sobre sexo"
-    itemIcon: {fileID: 1389328290, guid: 07a7d4c8ffe41f1439f289296d45b977, type: 3}
+  - itemID: 01
+    itemName: Guitarra
+    itemDescription: Guitarra Vermelha
+    itemIcon: {fileID: 1006794163, guid: 608109f774b3e934a91cdbbe5b2afba6, type: 3}
     itemPrice: 500
-    purchaseSuccessMessage: Comprou Sexo
+    purchaseSuccessMessage: Comprou Guitarra
     insufficientFundsMessage: Sem dinheiro
     OnItemPurchased:
       m_PersistentCalls:
-        m_Calls: []
-  - itemID: Transa
-    itemName: transa
-    itemDescription: "Descri\xE7\xE3o sobre transa"
-    itemIcon: {fileID: -154331024, guid: 9db97d92d472bef4f8d190fd966f638a, type: 3}
-    itemPrice: 300
-    purchaseSuccessMessage: Comprou setransa
-    insufficientFundsMessage: sem dinehiro
-    OnItemPurchased:
-      m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: PlayerControl, Assembly-CSharp
+          m_MethodName: UpgrateSkill
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Skill2
+            m_BoolArgument: 0
+          m_CallState: 2
   shopItemsParent: {fileID: 0}
   shopItemUIPrefab: {fileID: 4652593345542223093, guid: c1276d503d6dd8747aa7e0a4cb81480a, type: 3}
-  OnCurrencyUpdated:
-    m_PersistentCalls:
-      m_Calls: []
-  OnMessageDisplayed:
-    m_PersistentCalls:
-      m_Calls: []
+--- !u!1 &6906973406888104196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5874798353734300292}
+  - component: {fileID: 7500458345619443381}
+  m_Layer: 0
+  m_Name: EnimiControler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5874798353734300292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6906973406888104196}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6624070292560102618}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7500458345619443381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6906973406888104196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c2f77964b31e1d43b4ce1ed5c9e0527, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawEnimy
+  spownPoint: {fileID: 0}
+  enemyPrefab: {fileID: 8989735292275739146, guid: e67a87c4b5e18e94c85b566bcbc84301, type: 3}
+  spawnInterval: 3
+  randon: 2
 --- !u!1 &7790267096237242281
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,10 +681,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa79342235a29d048b9c3b84d5b9b091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endGameTime: 0
+  endGameTime: 10
   isEndGame: 0
-  Mvp: {fileID: 0}
-  spownMvp: {fileID: 0}
+  Mvp: {fileID: 7676215162517957289, guid: b306a6b32d9ad8e40b92d7031ac8f75e, type: 3}
+  spownMvp: {fileID: 3596652044621130589}
   initialSpeed: 5
   maxSpeed: 10
   acceleration: 0.01

@@ -62,6 +62,10 @@ public class PlatformController : MonoBehaviour
 
 
 
+
+
+
+
     void Start()
     {
         objectPooler = ObjectPooler.Instance;

@@ -7,7 +7,7 @@ public class AlgoritimoGargula : MonoBehaviour
 {
     [SerializeField]
     private Rigidbody2D Gargula;
-    private bool cd;
+    private bool cd;//////chupra cu
         
             
     [SerializeField]

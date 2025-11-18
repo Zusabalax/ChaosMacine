@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1980022884601829975}
   - component: {fileID: 2112265015473433855}
   - component: {fileID: 6221533293767622574}
-  - component: {fileID: 5920392023296985859}
   - component: {fileID: 8801289799427694067}
+  - component: {fileID: -1909132333244254424}
   m_Layer: 0
   m_Name: VoidBullet 1
   m_TagString: Player
@@ -115,7 +115,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &5920392023296985859
+--- !u!114 &8801289799427694067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3558118585834491564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e458bb413af48ac458d42a8ba4749be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletAtack
+  speed: 10
+  time: 2
+--- !u!61 &-1909132333244254424
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,11 +159,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.03244412, y: -0.118961394}
+  m_Offset: {x: 0, y: -0.067868754}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -159,19 +173,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.7837064, y: 0.7620772}
+  m_Size: {x: 1, y: 0.7794267}
   m_EdgeRadius: 0
---- !u!114 &8801289799427694067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3558118585834491564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e458bb413af48ac458d42a8ba4749be0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BulletAtack
-  speed: 10
-  time: 4

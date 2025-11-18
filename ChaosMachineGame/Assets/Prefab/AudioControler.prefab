@@ -28,16 +28,16 @@ RectTransform:
   m_GameObject: {fileID: 2156915591004569998}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: 1.77, y: 1.77, z: 1.77}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 759465704152616450}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: -20}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 888.8001, y: 468.80008}
+  m_SizeDelta: {x: 102.400024, y: 102.399994}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1773461673340498770
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -59,14 +59,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.030314207, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: fb1f4de6f977c5f49899a076af5d3e63, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -120,6 +120,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 8254140961237251486}
+        m_TargetAssemblyTypeName: SoundControler, Assembly-CSharp
+        m_MethodName: PlayAudio
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: click
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 8254140961237251486}
         m_TargetAssemblyTypeName: SoundControler, Assembly-CSharp
         m_MethodName: Mute
@@ -192,7 +204,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 223
   m_TargetDisplay: 0
 --- !u!114 &8504174042562584096
 MonoBehaviour:
@@ -282,7 +294,7 @@ MonoBehaviour:
   List:
   - SoundName: Rif_Pesadao
     AudioClip: {fileID: 8300000, guid: f4013a8aa7cd67e4c9efa7e402ce07bc, type: 3}
-    SoundVolume: 1
+    SoundVolume: 0.146
     SoundPitch: 0.83
     AudioSource: {fileID: 0}
     IsMusic: 1
@@ -296,6 +308,42 @@ MonoBehaviour:
     AudioClip: {fileID: 8300000, guid: a52a9625f3932d747a9432aaa3879788, type: 3}
     SoundVolume: 1
     SoundPitch: 0.7
+    AudioSource: {fileID: 0}
+    IsMusic: 0
+  - SoundName: Narrative
+    AudioClip: {fileID: 8300000, guid: b333884b6831c2f418b69e00c846b0ca, type: 3}
+    SoundVolume: 1
+    SoundPitch: 0.9
+    AudioSource: {fileID: 0}
+    IsMusic: 0
+  - SoundName: click
+    AudioClip: {fileID: 8300000, guid: 1ccd7688150457b48a9804ce53e5ce03, type: 3}
+    SoundVolume: 1
+    SoundPitch: 0.86
+    AudioSource: {fileID: 0}
+    IsMusic: 0
+  - SoundName: gatoJump
+    AudioClip: {fileID: 8300000, guid: cfcb9f7262127b24ea3e86d010e861a8, type: 3}
+    SoundVolume: 0.565
+    SoundPitch: 0.78
+    AudioSource: {fileID: 0}
+    IsMusic: 0
+  - SoundName: gatoDash
+    AudioClip: {fileID: 8300000, guid: 344bd602ccc13164baf25c5898e50118, type: 3}
+    SoundVolume: 0.72
+    SoundPitch: 0.75
+    AudioSource: {fileID: 0}
+    IsMusic: 0
+  - SoundName: skillCat
+    AudioClip: {fileID: 8300000, guid: 970218401e23d2242ba26c176ae7741d, type: 3}
+    SoundVolume: 0.72
+    SoundPitch: 1
+    AudioSource: {fileID: 0}
+    IsMusic: 0
+  - SoundName: skillCat
+    AudioClip: {fileID: 8300000, guid: 970218401e23d2242ba26c176ae7741d, type: 3}
+    SoundVolume: 0.72
+    SoundPitch: 1
     AudioSource: {fileID: 0}
     IsMusic: 0
   Image: {fileID: 2481610271342537310}

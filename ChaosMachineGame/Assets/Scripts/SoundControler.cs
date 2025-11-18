@@ -91,13 +91,13 @@ public class SoundControler : MonoBehaviour
     {
         mute=!mute; 
         if(!mute)
-            Image.color = Color.green;
+            Image.color = Color.white;
         else
             Image.color = Color.red;
 
         foreach (Sound som in List)
         {
-            
+            if(som.IsMusic)
                 som.AudioSource.mute=mute;
            
         }

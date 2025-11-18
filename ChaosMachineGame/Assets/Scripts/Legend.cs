@@ -15,6 +15,8 @@ public class Legend : MonoBehaviour
     [SerializeField]
     private float textSpeed ;
 
+    [SerializeField]
+    bool win;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,7 +27,8 @@ public class Legend : MonoBehaviour
     {
         _legendTextUI.text = "";
         yield return new WaitForSeconds(1);
-        SoundControler.Instance.PlayAudio("Narrative");
+        if(win)
+            SoundControler.Instance.PlayAudio("Narrative");
         foreach (char letter in _legendText.ToCharArray())
         {
             _legendTextUI.text += letter;
